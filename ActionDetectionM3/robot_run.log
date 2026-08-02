@@ -1517,3 +1517,836 @@
 [SimRobot] ALERT: EMERGENCY STOP: person 4 too close to robot
 [SimRobot] STOP
 [SimRobot] ALERT: EMERGENCY STOP: person 4 too close to robot
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] MOVE linear=0.40 angular=-0.04 pose=(0.04,0.00,-0.00)
+[SimRobot] MOVE linear=0.40 angular=-0.05 pose=(0.08,0.00,-0.01)
+[SimRobot] MOVE linear=0.40 angular=-0.05 pose=(0.12,0.00,-0.01)
+[SimRobot] MOVE linear=0.40 angular=-0.04 pose=(0.16,0.00,-0.02)
+[SimRobot] MOVE linear=0.40 angular=-0.04 pose=(0.20,0.00,-0.02)
+[SimRobot] MOVE linear=0.40 angular=-0.04 pose=(0.24,0.00,-0.03)
+[SimRobot] MOVE linear=0.40 angular=-0.02 pose=(0.28,0.00,-0.03)
+[SimRobot] MOVE linear=0.40 angular=-0.01 pose=(0.32,0.00,-0.03)
+[SimRobot] MOVE linear=0.40 angular=-0.01 pose=(0.36,0.00,-0.03)
+[SimRobot] MOVE linear=0.40 angular=-0.01 pose=(0.40,0.00,-0.03)
+[SimRobot] MOVE linear=0.40 angular=0.01 pose=(0.44,0.00,-0.03)
+[SimRobot] MOVE linear=0.40 angular=-0.01 pose=(0.48,0.00,-0.03)
+[SimRobot] MOVE linear=0.40 angular=-0.03 pose=(0.52,0.00,-0.03)
+[SimRobot] MOVE linear=0.40 angular=-0.04 pose=(0.56,0.00,-0.04)
+[SimRobot] MOVE linear=0.40 angular=-0.04 pose=(0.60,0.00,-0.04)
+[SimRobot] MOVE linear=0.40 angular=-0.05 pose=(0.64,0.00,-0.05)
+[SimRobot] MOVE linear=0.40 angular=-0.05 pose=(0.68,0.00,-0.05)
+[SimRobot] MOVE linear=0.40 angular=-0.06 pose=(0.72,0.00,-0.06)
+[SimRobot] MOVE linear=0.25 angular=-0.06 pose=(0.75,0.00,-0.06)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.06 pose=(0.77,0.00,-0.07)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.05 pose=(0.80,0.00,-0.07)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.04 pose=(0.82,0.00,-0.08)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.06 pose=(0.85,0.00,-0.08)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.04 pose=(0.87,0.00,-0.09)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.05 pose=(0.90,0.00,-0.09)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.05 pose=(0.92,0.00,-0.10)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.03 pose=(0.95,0.00,-0.10)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.05 pose=(0.97,0.00,-0.11)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.04 pose=(1.00,0.00,-0.11)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.01 pose=(1.02,0.00,-0.11)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.00 pose=(1.05,0.00,-0.11)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.00 pose=(1.07,0.00,-0.11)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.00 pose=(1.10,0.00,-0.11)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=0.00 pose=(1.12,0.00,-0.11)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=0.02 pose=(1.15,0.00,-0.11)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=0.02 pose=(1.17,0.00,-0.11)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=0.01 pose=(1.20,0.00,-0.11)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.40 angular=0.02 pose=(1.24,0.00,-0.10)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(1.28,0.00,-0.10)
+[SimRobot] MOVE linear=0.40 angular=-0.02 pose=(1.32,0.00,-0.10)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(1.36,0.00,-0.09)
+[SimRobot] MOVE linear=0.40 angular=0.11 pose=(1.40,0.00,-0.08)
+[SimRobot] MOVE linear=0.40 angular=0.12 pose=(1.44,0.00,-0.07)
+[SimRobot] MOVE linear=0.25 angular=0.12 pose=(1.46,0.00,-0.06)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=0.13 pose=(1.49,0.00,-0.04)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=0.13 pose=(1.51,0.00,-0.03)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=0.13 pose=(1.53,0.00,-0.02)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=0.12 pose=(1.56,0.00,-0.01)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=0.13 pose=(1.58,0.00,0.01)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=0.13 pose=(1.61,0.00,0.02)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=0.13 pose=(1.63,0.00,0.03)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=0.13 pose=(1.66,0.00,0.04)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=0.12 pose=(1.68,0.00,0.06)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=0.12 pose=(1.71,0.00,0.07)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=0.12 pose=(1.73,0.00,0.08)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=0.15 pose=(1.76,0.00,0.09)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=0.02 pose=(1.78,0.00,0.10)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.01 pose=(1.81,0.00,0.10)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.40 angular=0.12 pose=(1.85,0.00,0.11)
+[SimRobot] MOVE linear=0.40 angular=0.10 pose=(1.89,0.00,0.12)
+[SimRobot] MOVE linear=0.40 angular=-0.02 pose=(1.93,0.00,0.12)
+[SimRobot] MOVE linear=0.40 angular=-0.01 pose=(1.97,0.00,0.11)
+[SimRobot] MOVE linear=0.40 angular=-0.00 pose=(2.01,0.00,0.11)
+[SimRobot] MOVE linear=0.40 angular=0.00 pose=(2.05,0.00,0.12)
+[SimRobot] MOVE linear=0.40 angular=0.01 pose=(2.09,0.00,0.12)
+[SimRobot] MOVE linear=0.40 angular=0.02 pose=(2.13,0.00,0.12)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(2.17,0.00,0.12)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(2.21,0.00,0.13)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(2.25,0.00,0.13)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(2.29,0.00,0.13)
+[SimRobot] MOVE linear=0.40 angular=0.01 pose=(2.33,0.00,0.14)
+[SimRobot] MOVE linear=0.40 angular=0.00 pose=(2.37,0.00,0.14)
+[SimRobot] MOVE linear=0.40 angular=-0.01 pose=(2.41,0.00,0.13)
+[SimRobot] MOVE linear=0.40 angular=-0.02 pose=(2.45,0.00,0.13)
+[SimRobot] MOVE linear=0.40 angular=-0.05 pose=(2.49,0.00,0.13)
+[SimRobot] MOVE linear=0.40 angular=-0.06 pose=(2.53,0.00,0.12)
+[SimRobot] MOVE linear=0.40 angular=-0.07 pose=(2.57,0.00,0.11)
+[SimRobot] MOVE linear=0.40 angular=-0.10 pose=(2.61,0.00,0.10)
+[SimRobot] MOVE linear=0.40 angular=-0.12 pose=(2.65,0.00,0.09)
+[SimRobot] MOVE linear=0.40 angular=-0.13 pose=(2.69,0.00,0.08)
+[SimRobot] MOVE linear=0.40 angular=-0.14 pose=(2.73,0.00,0.07)
+[SimRobot] MOVE linear=0.40 angular=-0.16 pose=(2.77,0.00,0.05)
+[SimRobot] MOVE linear=0.40 angular=-0.17 pose=(2.81,0.00,0.03)
+[SimRobot] MOVE linear=0.40 angular=-0.18 pose=(2.85,0.00,0.02)
+[SimRobot] MOVE linear=0.40 angular=-0.18 pose=(2.89,0.00,-0.00)
+[SimRobot] MOVE linear=0.40 angular=-0.18 pose=(2.93,0.00,-0.02)
+[SimRobot] MOVE linear=0.40 angular=-0.19 pose=(2.97,0.00,-0.04)
+[SimRobot] MOVE linear=0.40 angular=-0.20 pose=(3.01,0.00,-0.06)
+[SimRobot] MOVE linear=0.40 angular=-0.19 pose=(3.05,0.00,-0.08)
+[SimRobot] MOVE linear=0.40 angular=-0.19 pose=(3.09,0.00,-0.10)
+[SimRobot] MOVE linear=0.40 angular=-0.19 pose=(3.13,0.00,-0.12)
+[SimRobot] MOVE linear=0.40 angular=-0.17 pose=(3.17,0.00,-0.13)
+[SimRobot] MOVE linear=0.40 angular=-0.16 pose=(3.21,0.00,-0.15)
+[SimRobot] MOVE linear=0.40 angular=-0.15 pose=(3.25,0.00,-0.16)
+[SimRobot] MOVE linear=0.40 angular=-0.13 pose=(3.29,0.00,-0.18)
+[SimRobot] MOVE linear=0.40 angular=-0.12 pose=(3.33,0.00,-0.19)
+[SimRobot] MOVE linear=0.40 angular=-0.10 pose=(3.37,0.00,-0.20)
+[SimRobot] MOVE linear=0.40 angular=-0.06 pose=(3.41,0.00,-0.21)
+[SimRobot] MOVE linear=0.40 angular=-0.06 pose=(3.45,0.00,-0.21)
+[SimRobot] MOVE linear=0.40 angular=-0.02 pose=(3.49,0.00,-0.22)
+[SimRobot] MOVE linear=0.40 angular=-0.01 pose=(3.53,0.00,-0.22)
+[SimRobot] MOVE linear=0.40 angular=-0.01 pose=(3.57,0.00,-0.22)
+[SimRobot] MOVE linear=0.40 angular=0.03 pose=(3.61,0.00,-0.21)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(3.65,0.00,-0.21)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(3.69,0.00,-0.21)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(3.73,0.00,-0.20)
+[SimRobot] MOVE linear=0.40 angular=0.09 pose=(3.77,0.00,-0.19)
+[SimRobot] MOVE linear=0.40 angular=0.10 pose=(3.81,0.00,-0.18)
+[SimRobot] MOVE linear=0.40 angular=0.11 pose=(3.85,0.00,-0.17)
+[SimRobot] MOVE linear=0.40 angular=0.12 pose=(3.89,0.00,-0.16)
+[SimRobot] MOVE linear=0.40 angular=0.14 pose=(3.93,0.00,-0.14)
+[SimRobot] MOVE linear=0.40 angular=0.14 pose=(3.97,0.00,-0.13)
+[SimRobot] MOVE linear=0.40 angular=0.15 pose=(4.01,0.00,-0.12)
+[SimRobot] MOVE linear=0.40 angular=0.16 pose=(4.05,0.00,-0.10)
+[SimRobot] MOVE linear=0.40 angular=0.16 pose=(4.09,0.00,-0.08)
+[SimRobot] MOVE linear=0.40 angular=0.17 pose=(4.13,0.00,-0.07)
+[SimRobot] MOVE linear=0.40 angular=0.18 pose=(4.17,0.00,-0.05)
+[SimRobot] MOVE linear=0.40 angular=0.19 pose=(4.21,0.00,-0.03)
+[SimRobot] MOVE linear=0.40 angular=0.19 pose=(4.25,0.00,-0.01)
+[SimRobot] MOVE linear=0.40 angular=0.20 pose=(4.29,0.00,0.01)
+[SimRobot] MOVE linear=0.40 angular=0.20 pose=(4.33,0.00,0.03)
+[SimRobot] MOVE linear=0.40 angular=0.20 pose=(4.37,0.00,0.05)
+[SimRobot] MOVE linear=0.40 angular=0.20 pose=(4.41,0.00,0.07)
+[SimRobot] MOVE linear=0.40 angular=0.19 pose=(4.45,0.00,0.09)
+[SimRobot] MOVE linear=0.40 angular=0.18 pose=(4.49,0.00,0.10)
+[SimRobot] MOVE linear=0.40 angular=0.18 pose=(4.53,0.00,0.12)
+[SimRobot] MOVE linear=0.40 angular=0.18 pose=(4.57,0.00,0.14)
+[SimRobot] MOVE linear=0.40 angular=0.17 pose=(4.61,0.00,0.16)
+[SimRobot] MOVE linear=0.40 angular=0.16 pose=(4.65,0.00,0.17)
+[SimRobot] MOVE linear=0.40 angular=0.16 pose=(4.69,0.00,0.19)
+[SimRobot] MOVE linear=0.40 angular=0.17 pose=(4.73,0.00,0.21)
+[SimRobot] MOVE linear=0.40 angular=0.16 pose=(4.77,0.00,0.22)
+[SimRobot] MOVE linear=0.40 angular=0.16 pose=(4.81,0.00,0.24)
+[SimRobot] MOVE linear=0.40 angular=0.16 pose=(4.85,0.00,0.25)
+[SimRobot] MOVE linear=0.40 angular=0.15 pose=(4.89,0.00,0.27)
+[SimRobot] MOVE linear=0.40 angular=0.12 pose=(4.93,0.00,0.28)
+[SimRobot] MOVE linear=0.40 angular=0.12 pose=(4.97,0.00,0.29)
+[SimRobot] MOVE linear=0.40 angular=0.10 pose=(5.01,0.00,0.30)
+[SimRobot] MOVE linear=0.40 angular=0.10 pose=(5.05,0.00,0.31)
+[SimRobot] MOVE linear=0.40 angular=0.10 pose=(5.09,0.00,0.32)
+[SimRobot] MOVE linear=0.40 angular=0.10 pose=(5.13,0.00,0.33)
+[SimRobot] MOVE linear=0.40 angular=0.10 pose=(5.17,0.00,0.34)
+[SimRobot] MOVE linear=0.40 angular=0.10 pose=(5.21,0.00,0.35)
+[SimRobot] MOVE linear=0.40 angular=0.10 pose=(5.25,0.00,0.36)
+[SimRobot] MOVE linear=0.40 angular=0.09 pose=(5.29,0.00,0.37)
+[SimRobot] MOVE linear=0.40 angular=0.08 pose=(5.33,0.00,0.38)
+[SimRobot] MOVE linear=0.40 angular=0.08 pose=(5.37,0.00,0.39)
+[SimRobot] MOVE linear=0.40 angular=-0.04 pose=(5.41,0.00,0.38)
+[SimRobot] MOVE linear=0.40 angular=-0.05 pose=(5.45,0.00,0.38)
+[SimRobot] MOVE linear=0.40 angular=-0.04 pose=(5.49,0.00,0.38)
+[SimRobot] MOVE linear=0.40 angular=-0.04 pose=(5.53,0.00,0.37)
+[SimRobot] MOVE linear=0.40 angular=-0.01 pose=(5.57,0.00,0.37)
+[SimRobot] MOVE linear=0.40 angular=0.00 pose=(5.61,0.00,0.37)
+[SimRobot] MOVE linear=0.40 angular=0.00 pose=(5.65,0.00,0.37)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(5.69,0.00,0.37)
+[SimRobot] MOVE linear=0.40 angular=0.14 pose=(5.73,0.00,0.39)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(5.77,0.00,0.39)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(5.81,0.00,0.40)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(5.85,0.00,0.40)
+[SimRobot] MOVE linear=0.40 angular=0.15 pose=(5.89,0.00,0.42)
+[SimRobot] MOVE linear=0.40 angular=0.12 pose=(5.93,0.00,0.43)
+[SimRobot] MOVE linear=0.40 angular=0.12 pose=(5.97,0.00,0.44)
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] MOVE linear=0.40 angular=0.19 pose=(6.01,0.00,0.46)
+[SimRobot] MOVE linear=0.40 angular=0.28 pose=(6.05,0.00,0.49)
+[SimRobot] MOVE linear=0.40 angular=0.33 pose=(6.09,0.00,0.52)
+[SimRobot] MOVE linear=0.40 angular=0.30 pose=(6.13,0.00,0.55)
+[SimRobot] MOVE linear=0.40 angular=0.30 pose=(6.17,0.00,0.58)
+[SimRobot] MOVE linear=0.40 angular=0.40 pose=(6.21,0.00,0.62)
+[SimRobot] MOVE linear=0.40 angular=0.41 pose=(6.25,0.00,0.66)
+[SimRobot] MOVE linear=0.40 angular=0.46 pose=(6.29,0.00,0.71)
+[SimRobot] MOVE linear=0.40 angular=0.46 pose=(6.33,0.00,0.76)
+[SimRobot] MOVE linear=0.40 angular=0.48 pose=(6.37,0.00,0.80)
+[SimRobot] MOVE linear=0.40 angular=0.43 pose=(6.41,0.00,0.85)
+[SimRobot] MOVE linear=0.40 angular=0.43 pose=(6.45,0.00,0.89)
+[SimRobot] MOVE linear=0.40 angular=0.48 pose=(6.49,0.00,0.94)
+[SimRobot] MOVE linear=0.40 angular=0.45 pose=(6.53,0.00,0.98)
+[SimRobot] MOVE linear=0.40 angular=0.48 pose=(6.57,0.00,1.03)
+[SimRobot] MOVE linear=0.40 angular=0.48 pose=(6.61,0.00,1.08)
+[SimRobot] MOVE linear=0.40 angular=0.45 pose=(6.65,0.00,1.12)
+[SimRobot] MOVE linear=0.40 angular=0.45 pose=(6.69,0.00,1.17)
+[SimRobot] MOVE linear=0.40 angular=0.45 pose=(6.73,0.00,1.21)
+[SimRobot] MOVE linear=0.40 angular=0.45 pose=(6.77,0.00,1.26)
+[SimRobot] MOVE linear=0.40 angular=0.44 pose=(6.81,0.00,1.30)
+[SimRobot] MOVE linear=0.40 angular=0.44 pose=(6.85,0.00,1.35)
+[SimRobot] MOVE linear=0.40 angular=0.44 pose=(6.89,0.00,1.39)
+[SimRobot] MOVE linear=0.40 angular=0.43 pose=(6.93,0.00,1.43)
+[SimRobot] MOVE linear=0.40 angular=0.43 pose=(6.97,0.00,1.48)
+[SimRobot] MOVE linear=0.40 angular=0.47 pose=(7.01,0.00,1.52)
+[SimRobot] MOVE linear=0.40 angular=0.46 pose=(7.05,0.00,1.57)
+[SimRobot] MOVE linear=0.40 angular=0.47 pose=(7.09,0.00,1.62)
+[SimRobot] MOVE linear=0.40 angular=0.47 pose=(7.13,0.00,1.66)
+[SimRobot] MOVE linear=0.40 angular=0.45 pose=(7.17,0.00,1.71)
+[SimRobot] MOVE linear=0.40 angular=0.35 pose=(7.21,0.00,1.74)
+[SimRobot] MOVE linear=0.40 angular=0.34 pose=(7.25,0.00,1.78)
+[SimRobot] MOVE linear=0.40 angular=0.30 pose=(7.29,0.00,1.81)
+[SimRobot] MOVE linear=0.40 angular=0.28 pose=(7.33,0.00,1.83)
+[SimRobot] MOVE linear=0.40 angular=0.22 pose=(7.37,0.00,1.86)
+[SimRobot] MOVE linear=0.40 angular=0.21 pose=(7.41,0.00,1.88)
+[SimRobot] MOVE linear=0.40 angular=0.21 pose=(7.45,0.00,1.90)
+[SimRobot] MOVE linear=0.40 angular=0.21 pose=(7.49,0.00,1.92)
+[SimRobot] MOVE linear=0.40 angular=0.21 pose=(7.53,0.00,1.94)
+[SimRobot] MOVE linear=0.40 angular=0.20 pose=(7.57,0.00,1.96)
+[SimRobot] MOVE linear=0.40 angular=0.20 pose=(7.61,0.00,1.98)
+[SimRobot] MOVE linear=0.40 angular=0.15 pose=(7.65,0.00,1.99)
+[SimRobot] MOVE linear=0.40 angular=0.13 pose=(7.69,0.00,2.01)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(7.73,0.00,2.01)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(7.77,0.00,2.02)
+[SimRobot] MOVE linear=0.40 angular=-0.01 pose=(7.81,0.00,2.02)
+[SimRobot] MOVE linear=0.40 angular=-0.02 pose=(7.85,0.00,2.02)
+[SimRobot] MOVE linear=0.40 angular=-0.04 pose=(7.89,0.00,2.01)
+[SimRobot] MOVE linear=0.40 angular=-0.07 pose=(7.93,0.00,2.00)
+[SimRobot] MOVE linear=0.40 angular=-0.08 pose=(7.97,0.00,2.00)
+[SimRobot] MOVE linear=0.40 angular=-0.09 pose=(8.01,0.00,1.99)
+[SimRobot] MOVE linear=0.40 angular=-0.09 pose=(8.05,0.00,1.98)
+[SimRobot] MOVE linear=0.40 angular=-0.10 pose=(8.09,0.00,1.97)
+[SimRobot] MOVE linear=0.40 angular=-0.10 pose=(8.13,0.00,1.96)
+[SimRobot] MOVE linear=0.40 angular=-0.11 pose=(8.17,0.00,1.95)
+[SimRobot] MOVE linear=0.40 angular=-0.12 pose=(8.21,0.00,1.94)
+[SimRobot] MOVE linear=0.40 angular=-0.12 pose=(8.25,0.00,1.92)
+[SimRobot] MOVE linear=0.40 angular=-0.16 pose=(8.29,0.00,1.91)
+[SimRobot] MOVE linear=0.40 angular=-0.17 pose=(8.33,0.00,1.89)
+[SimRobot] MOVE linear=0.40 angular=-0.24 pose=(8.37,0.00,1.87)
+[SimRobot] MOVE linear=0.40 angular=-0.26 pose=(8.41,0.00,1.84)
+[SimRobot] MOVE linear=0.40 angular=-0.30 pose=(8.45,0.00,1.81)
+[SimRobot] MOVE linear=0.40 angular=-0.30 pose=(8.49,0.00,1.78)
+[SimRobot] MOVE linear=0.40 angular=-0.33 pose=(8.53,0.00,1.75)
+[SimRobot] MOVE linear=0.40 angular=-0.33 pose=(8.57,0.00,1.71)
+[SimRobot] MOVE linear=0.40 angular=-0.37 pose=(8.61,0.00,1.68)
+[SimRobot] MOVE linear=0.40 angular=-0.37 pose=(8.65,0.00,1.64)
+[SimRobot] MOVE linear=0.40 angular=-0.38 pose=(8.69,0.00,1.60)
+[SimRobot] MOVE linear=0.40 angular=-0.38 pose=(8.73,0.00,1.56)
+[SimRobot] MOVE linear=0.40 angular=-0.38 pose=(8.77,0.00,1.53)
+[SimRobot] MOVE linear=0.40 angular=-0.37 pose=(8.81,0.00,1.49)
+[SimRobot] MOVE linear=0.40 angular=-0.37 pose=(8.85,0.00,1.45)
+[SimRobot] MOVE linear=0.40 angular=-0.36 pose=(8.89,0.00,1.42)
+[SimRobot] MOVE linear=0.40 angular=-0.36 pose=(8.93,0.00,1.38)
+[SimRobot] MOVE linear=0.40 angular=-0.36 pose=(8.97,0.00,1.35)
+[SimRobot] MOVE linear=0.40 angular=-0.35 pose=(9.01,0.00,1.31)
+[SimRobot] MOVE linear=0.40 angular=-0.34 pose=(9.05,0.00,1.28)
+[SimRobot] MOVE linear=0.40 angular=-0.33 pose=(9.09,0.00,1.24)
+[SimRobot] MOVE linear=0.40 angular=-0.33 pose=(9.13,0.00,1.21)
+[SimRobot] MOVE linear=0.40 angular=-0.33 pose=(9.17,0.00,1.18)
+[SimRobot] MOVE linear=0.40 angular=-0.33 pose=(9.21,0.00,1.14)
+[SimRobot] MOVE linear=0.40 angular=-0.33 pose=(9.25,0.00,1.11)
+[SimRobot] MOVE linear=0.40 angular=-0.34 pose=(9.29,0.00,1.08)
+[SimRobot] MOVE linear=0.40 angular=-0.34 pose=(9.33,0.00,1.04)
+[SimRobot] MOVE linear=0.40 angular=-0.35 pose=(9.37,0.00,1.01)
+[SimRobot] MOVE linear=0.40 angular=-0.36 pose=(9.41,0.00,0.97)
+[SimRobot] MOVE linear=0.40 angular=-0.36 pose=(9.45,0.00,0.94)
+[SimRobot] MOVE linear=0.40 angular=-0.36 pose=(9.49,0.00,0.90)
+[SimRobot] MOVE linear=0.40 angular=-0.35 pose=(9.53,0.00,0.87)
+[SimRobot] MOVE linear=0.40 angular=-0.35 pose=(9.57,0.00,0.83)
+[SimRobot] MOVE linear=0.40 angular=-0.33 pose=(9.61,0.00,0.80)
+[SimRobot] MOVE linear=0.40 angular=-0.33 pose=(9.65,0.00,0.77)
+[SimRobot] MOVE linear=0.40 angular=-0.30 pose=(9.69,0.00,0.73)
+[SimRobot] MOVE linear=0.40 angular=-0.30 pose=(9.73,0.00,0.70)
+[SimRobot] MOVE linear=0.40 angular=-0.29 pose=(9.77,0.00,0.68)
+[SimRobot] MOVE linear=0.40 angular=-0.29 pose=(9.81,0.00,0.65)
+[SimRobot] MOVE linear=0.40 angular=-0.29 pose=(9.85,0.00,0.62)
+[SimRobot] MOVE linear=0.40 angular=-0.24 pose=(9.89,0.00,0.59)
+[SimRobot] MOVE linear=0.40 angular=-0.24 pose=(9.93,0.00,0.57)
+[SimRobot] MOVE linear=0.40 angular=-0.21 pose=(9.97,0.00,0.55)
+[SimRobot] MOVE linear=0.40 angular=-0.21 pose=(10.01,0.00,0.53)
+[SimRobot] MOVE linear=0.40 angular=-0.20 pose=(10.05,0.00,0.51)
+[SimRobot] MOVE linear=0.40 angular=-0.19 pose=(10.09,0.00,0.49)
+[SimRobot] MOVE linear=0.40 angular=-0.17 pose=(10.13,0.00,0.47)
+[SimRobot] MOVE linear=0.40 angular=-0.16 pose=(10.17,0.00,0.46)
+[SimRobot] MOVE linear=0.40 angular=-0.13 pose=(10.21,0.00,0.44)
+[SimRobot] MOVE linear=0.40 angular=-0.12 pose=(10.25,0.00,0.43)
+[SimRobot] MOVE linear=0.40 angular=-0.12 pose=(10.29,0.00,0.42)
+[SimRobot] MOVE linear=0.40 angular=-0.08 pose=(10.33,0.00,0.41)
+[SimRobot] MOVE linear=0.40 angular=-0.08 pose=(10.37,0.00,0.40)
+[SimRobot] MOVE linear=0.40 angular=-0.07 pose=(10.41,0.00,0.40)
+[SimRobot] MOVE linear=0.40 angular=-0.06 pose=(10.45,0.00,0.39)
+[SimRobot] MOVE linear=0.40 angular=-0.06 pose=(10.49,0.00,0.38)
+[SimRobot] MOVE linear=0.40 angular=-0.06 pose=(10.53,0.00,0.38)
+[SimRobot] MOVE linear=0.40 angular=-0.05 pose=(10.57,0.00,0.37)
+[SimRobot] MOVE linear=0.40 angular=-0.05 pose=(10.61,0.00,0.37)
+[SimRobot] MOVE linear=0.40 angular=-0.04 pose=(10.65,0.00,0.37)
+[SimRobot] MOVE linear=0.40 angular=-0.04 pose=(10.69,0.00,0.36)
+[SimRobot] MOVE linear=0.40 angular=-0.04 pose=(10.73,0.00,0.36)
+[SimRobot] MOVE linear=0.40 angular=-0.03 pose=(10.77,0.00,0.35)
+[SimRobot] MOVE linear=0.40 angular=-0.03 pose=(10.81,0.00,0.35)
+[SimRobot] MOVE linear=0.40 angular=-0.02 pose=(10.85,0.00,0.35)
+[SimRobot] MOVE linear=0.40 angular=-0.01 pose=(10.89,0.00,0.35)
+[SimRobot] MOVE linear=0.40 angular=-0.00 pose=(10.93,0.00,0.35)
+[SimRobot] MOVE linear=0.40 angular=0.00 pose=(10.97,0.00,0.35)
+[SimRobot] MOVE linear=0.40 angular=0.00 pose=(11.01,0.00,0.35)
+[SimRobot] MOVE linear=0.40 angular=0.01 pose=(11.05,0.00,0.35)
+[SimRobot] MOVE linear=0.40 angular=0.01 pose=(11.09,0.00,0.35)
+[SimRobot] MOVE linear=0.40 angular=0.03 pose=(11.13,0.00,0.35)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(11.17,0.00,0.36)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(11.21,0.00,0.36)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(11.25,0.00,0.37)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(11.29,0.00,0.37)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(11.33,0.00,0.38)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(11.37,0.00,0.39)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(11.41,0.00,0.39)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(11.45,0.00,0.40)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(11.49,0.00,0.41)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(11.53,0.00,0.41)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(11.57,0.00,0.42)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(11.61,0.00,0.42)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(11.65,0.00,0.43)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(11.69,0.00,0.43)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(11.73,0.00,0.44)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(11.77,0.00,0.44)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(11.81,0.00,0.45)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(11.85,0.00,0.46)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(11.89,0.00,0.46)
+[SimRobot] MOVE linear=0.40 angular=0.08 pose=(11.93,0.00,0.47)
+[SimRobot] MOVE linear=0.40 angular=0.09 pose=(11.97,0.00,0.48)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(12.01,0.00,0.49)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(12.05,0.00,0.50)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(12.09,0.00,0.50)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(12.13,0.00,0.51)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(12.17,0.00,0.52)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(12.21,0.00,0.52)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(12.25,0.00,0.53)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(12.29,0.00,0.53)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(12.33,0.00,0.54)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(12.37,0.00,0.54)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(12.41,0.00,0.55)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(12.45,0.00,0.55)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(12.49,0.00,0.55)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(12.53,0.00,0.56)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(12.57,0.00,0.56)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(12.61,0.00,0.57)
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(12.65,0.00,0.57)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(12.69,0.00,0.58)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(12.73,0.00,0.58)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(12.77,0.00,0.59)
+[SimRobot] MOVE linear=0.40 angular=0.03 pose=(12.81,0.00,0.59)
+[SimRobot] MOVE linear=0.40 angular=0.03 pose=(12.85,0.00,0.59)
+[SimRobot] MOVE linear=0.40 angular=0.03 pose=(12.89,0.00,0.59)
+[SimRobot] STOP
+[SimRobot] MOVE linear=0.40 angular=0.03 pose=(12.93,0.00,0.60)
+[SimRobot] MOVE linear=0.40 angular=0.02 pose=(12.97,0.00,0.60)
+[SimRobot] MOVE linear=0.40 angular=0.02 pose=(13.01,0.00,0.60)
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] MOVE linear=0.40 angular=0.03 pose=(13.05,0.00,0.61)
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(13.09,0.00,0.61)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(13.13,0.00,0.61)
+[SimRobot] MOVE linear=0.40 angular=0.03 pose=(13.17,0.00,0.62)
+[SimRobot] MOVE linear=0.40 angular=0.02 pose=(13.21,0.00,0.62)
+[SimRobot] MOVE linear=0.40 angular=0.01 pose=(13.25,0.00,0.62)
+[SimRobot] MOVE linear=0.40 angular=0.01 pose=(13.29,0.00,0.62)
+[SimRobot] MOVE linear=0.40 angular=0.01 pose=(13.33,0.00,0.62)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(13.37,0.00,0.63)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(13.41,0.00,0.63)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(13.45,0.00,0.64)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(13.49,0.00,0.64)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(13.53,0.00,0.65)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(13.57,0.00,0.65)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(13.61,0.00,0.66)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(13.65,0.00,0.66)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(13.69,0.00,0.67)
+[SimRobot] MOVE linear=0.40 angular=0.01 pose=(13.73,0.00,0.67)
+[SimRobot] MOVE linear=0.40 angular=0.00 pose=(13.77,0.00,0.67)
+[SimRobot] MOVE linear=0.40 angular=-0.04 pose=(13.81,0.00,0.67)
+[SimRobot] MOVE linear=0.40 angular=-0.06 pose=(13.85,0.00,0.66)
+[SimRobot] MOVE linear=0.40 angular=-0.10 pose=(13.89,0.00,0.65)
+[SimRobot] MOVE linear=0.40 angular=-0.10 pose=(13.93,0.00,0.64)
+[SimRobot] MOVE linear=0.40 angular=-0.10 pose=(13.97,0.00,0.63)
+[SimRobot] MOVE linear=0.40 angular=-0.11 pose=(14.01,0.00,0.62)
+[SimRobot] MOVE linear=0.40 angular=-0.11 pose=(14.05,0.00,0.61)
+[SimRobot] MOVE linear=0.40 angular=-0.11 pose=(14.09,0.00,0.60)
+[SimRobot] MOVE linear=0.40 angular=-0.09 pose=(14.13,0.00,0.59)
+[SimRobot] MOVE linear=0.40 angular=-0.08 pose=(14.17,0.00,0.58)
+[SimRobot] MOVE linear=0.40 angular=-0.09 pose=(14.21,0.00,0.57)
+[SimRobot] MOVE linear=0.40 angular=-0.12 pose=(14.25,0.00,0.56)
+[SimRobot] MOVE linear=0.40 angular=-0.13 pose=(14.29,0.00,0.55)
+[SimRobot] MOVE linear=0.40 angular=-0.17 pose=(14.33,0.00,0.53)
+[SimRobot] MOVE linear=0.40 angular=-0.18 pose=(14.37,0.00,0.51)
+[SimRobot] MOVE linear=0.40 angular=-0.19 pose=(14.41,0.00,0.49)
+[SimRobot] MOVE linear=0.40 angular=-0.21 pose=(14.45,0.00,0.47)
+[SimRobot] MOVE linear=0.40 angular=-0.22 pose=(14.49,0.00,0.45)
+[SimRobot] MOVE linear=0.40 angular=-0.27 pose=(14.53,0.00,0.42)
+[SimRobot] MOVE linear=0.40 angular=-0.29 pose=(14.57,0.00,0.39)
+[SimRobot] MOVE linear=0.40 angular=-0.32 pose=(14.61,0.00,0.36)
+[SimRobot] MOVE linear=0.40 angular=-0.32 pose=(14.65,0.00,0.33)
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 1 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 1 too close to robot
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(0.04,0.00,0.00)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(0.08,0.00,0.01)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(0.12,0.00,0.01)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(0.16,0.00,0.02)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(0.20,0.00,0.02)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(0.24,0.00,0.03)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(0.28,0.00,0.03)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(0.32,0.00,0.04)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(0.36,0.00,0.04)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(0.40,0.00,0.05)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(0.44,0.00,0.05)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(0.48,0.00,0.06)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(0.52,0.00,0.06)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(0.56,0.00,0.06)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(0.60,0.00,0.07)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(0.64,0.00,0.07)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(0.68,0.00,0.08)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(0.72,0.00,0.08)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(0.76,0.00,0.09)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(0.80,0.00,0.09)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(0.84,0.00,0.10)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(0.88,0.00,0.10)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(0.92,0.00,0.10)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(0.96,0.00,0.11)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(1.00,0.00,0.11)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(1.04,0.00,0.12)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(1.08,0.00,0.12)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(1.12,0.00,0.13)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(1.16,0.00,0.13)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(1.20,0.00,0.14)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(1.24,0.00,0.14)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(1.28,0.00,0.15)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(1.32,0.00,0.15)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(1.36,0.00,0.16)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(1.40,0.00,0.16)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(1.44,0.00,0.17)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(1.48,0.00,0.17)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(1.52,0.00,0.17)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(1.56,0.00,0.18)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(1.60,0.00,0.18)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(1.64,0.00,0.19)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(1.68,0.00,0.19)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(1.72,0.00,0.20)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(1.76,0.00,0.20)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(1.80,0.00,0.21)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(1.84,0.00,0.21)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(1.88,0.00,0.22)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(1.92,0.00,0.22)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(1.96,0.00,0.23)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(2.00,0.00,0.23)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(2.04,0.00,0.24)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(2.08,0.00,0.24)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(2.12,0.00,0.25)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(2.16,0.00,0.26)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(2.20,0.00,0.26)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(2.24,0.00,0.27)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(2.28,0.00,0.27)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(2.32,0.00,0.28)
+[SimRobot] MOVE linear=0.40 angular=0.09 pose=(2.36,0.00,0.29)
+[SimRobot] MOVE linear=0.40 angular=0.12 pose=(2.40,0.00,0.30)
+[SimRobot] MOVE linear=0.40 angular=0.12 pose=(2.44,0.00,0.31)
+[SimRobot] MOVE linear=0.40 angular=0.11 pose=(2.48,0.00,0.33)
+[SimRobot] MOVE linear=0.40 angular=0.11 pose=(2.52,0.00,0.34)
+[SimRobot] MOVE linear=0.40 angular=0.11 pose=(2.56,0.00,0.35)
+[SimRobot] MOVE linear=0.40 angular=0.09 pose=(2.60,0.00,0.36)
+[SimRobot] MOVE linear=0.40 angular=0.09 pose=(2.64,0.00,0.36)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(2.68,0.00,0.37)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(2.72,0.00,0.38)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(2.76,0.00,0.38)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(2.80,0.00,0.39)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(2.84,0.00,0.39)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(2.88,0.00,0.40)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(2.92,0.00,0.40)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(2.96,0.00,0.40)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(3.00,0.00,0.41)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(3.04,0.00,0.42)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(3.08,0.00,0.42)
+[SimRobot] MOVE linear=0.40 angular=0.08 pose=(3.12,0.00,0.43)
+[SimRobot] MOVE linear=0.40 angular=0.08 pose=(3.16,0.00,0.44)
+[SimRobot] MOVE linear=0.40 angular=0.09 pose=(3.20,0.00,0.45)
+[SimRobot] MOVE linear=0.40 angular=0.09 pose=(3.24,0.00,0.45)
+[SimRobot] MOVE linear=0.40 angular=0.09 pose=(3.28,0.00,0.46)
+[SimRobot] MOVE linear=0.40 angular=0.09 pose=(3.32,0.00,0.47)
+[SimRobot] MOVE linear=0.40 angular=0.08 pose=(3.36,0.00,0.48)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(3.40,0.00,0.49)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(3.44,0.00,0.49)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(3.48,0.00,0.50)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(3.52,0.00,0.50)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(3.56,0.00,0.51)
+[SimRobot] MOVE linear=0.40 angular=0.02 pose=(3.60,0.00,0.51)
+[SimRobot] MOVE linear=0.40 angular=0.02 pose=(3.64,0.00,0.51)
+[SimRobot] MOVE linear=0.40 angular=0.01 pose=(3.68,0.00,0.51)
+[SimRobot] MOVE linear=0.40 angular=0.01 pose=(3.72,0.00,0.51)
+[SimRobot] MOVE linear=0.40 angular=0.01 pose=(3.76,0.00,0.51)
+[SimRobot] MOVE linear=0.40 angular=0.02 pose=(3.80,0.00,0.52)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(3.84,0.00,0.52)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(3.88,0.00,0.53)
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] MOVE linear=0.40 angular=0.17 pose=(3.92,0.00,0.54)
+[SimRobot] MOVE linear=0.40 angular=0.18 pose=(3.96,0.00,0.56)
+[SimRobot] MOVE linear=0.40 angular=0.18 pose=(4.00,0.00,0.58)
+[SimRobot] MOVE linear=0.40 angular=0.19 pose=(4.04,0.00,0.60)
+[SimRobot] MOVE linear=0.40 angular=0.18 pose=(4.08,0.00,0.62)
+[SimRobot] MOVE linear=0.40 angular=0.18 pose=(4.12,0.00,0.64)
+[SimRobot] MOVE linear=0.40 angular=0.17 pose=(4.16,0.00,0.65)
+[SimRobot] MOVE linear=0.40 angular=0.12 pose=(4.20,0.00,0.66)
+[SimRobot] MOVE linear=0.40 angular=0.10 pose=(4.24,0.00,0.68)
+[SimRobot] MOVE linear=0.40 angular=0.10 pose=(4.28,0.00,0.69)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(4.32,0.00,0.69)
+[SimRobot] MOVE linear=0.40 angular=0.03 pose=(4.36,0.00,0.69)
+[SimRobot] MOVE linear=0.40 angular=0.02 pose=(4.40,0.00,0.70)
+[SimRobot] MOVE linear=0.40 angular=0.02 pose=(4.44,0.00,0.70)
+[SimRobot] MOVE linear=0.40 angular=0.02 pose=(4.48,0.00,0.70)
+[SimRobot] MOVE linear=0.40 angular=0.03 pose=(4.52,0.00,0.70)
+[SimRobot] MOVE linear=0.40 angular=0.03 pose=(4.56,0.00,0.71)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(4.60,0.00,0.71)
+[SimRobot] MOVE linear=0.40 angular=0.10 pose=(4.64,0.00,0.72)
+[SimRobot] MOVE linear=0.40 angular=0.11 pose=(4.68,0.00,0.73)
+[SimRobot] MOVE linear=0.40 angular=0.11 pose=(4.72,0.00,0.74)
+[SimRobot] MOVE linear=0.40 angular=0.12 pose=(4.76,0.00,0.76)
+[SimRobot] MOVE linear=0.40 angular=0.12 pose=(4.80,0.00,0.77)
+[SimRobot] MOVE linear=0.40 angular=0.12 pose=(4.84,0.00,0.78)
+[SimRobot] MOVE linear=0.40 angular=0.12 pose=(4.88,0.00,0.79)
+[SimRobot] MOVE linear=0.40 angular=0.11 pose=(4.92,0.00,0.80)
+[SimRobot] MOVE linear=0.40 angular=0.09 pose=(4.96,0.00,0.81)
+[SimRobot] MOVE linear=0.40 angular=0.09 pose=(5.00,0.00,0.82)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(5.04,0.00,0.83)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(5.08,0.00,0.83)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(5.12,0.00,0.83)
+[SimRobot] MOVE linear=0.40 angular=0.02 pose=(5.16,0.00,0.84)
+[SimRobot] MOVE linear=0.40 angular=0.01 pose=(5.20,0.00,0.84)
+[SimRobot] MOVE linear=0.40 angular=0.01 pose=(5.24,0.00,0.84)
+[SimRobot] MOVE linear=0.40 angular=0.01 pose=(5.28,0.00,0.84)
+[SimRobot] MOVE linear=0.40 angular=0.01 pose=(5.32,0.00,0.84)
+[SimRobot] MOVE linear=0.40 angular=0.02 pose=(5.36,0.00,0.84)
+[SimRobot] MOVE linear=0.40 angular=0.02 pose=(5.40,0.00,0.84)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(5.44,0.00,0.85)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(5.48,0.00,0.85)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(5.52,0.00,0.86)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(5.56,0.00,0.86)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(5.60,0.00,0.87)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(5.64,0.00,0.87)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(5.68,0.00,0.87)
+[SimRobot] MOVE linear=0.40 angular=0.04 pose=(5.72,0.00,0.88)
+[SimRobot] MOVE linear=0.40 angular=0.02 pose=(5.76,0.00,0.88)
+[SimRobot] MOVE linear=0.40 angular=0.01 pose=(5.80,0.00,0.88)
+[SimRobot] MOVE linear=0.40 angular=0.01 pose=(5.84,0.00,0.88)
+[SimRobot] MOVE linear=0.40 angular=-0.01 pose=(5.88,0.00,0.88)
+[SimRobot] MOVE linear=0.40 angular=-0.02 pose=(5.92,0.00,0.88)
+[SimRobot] MOVE linear=0.40 angular=-0.02 pose=(5.96,0.00,0.88)
+[SimRobot] MOVE linear=0.40 angular=-0.03 pose=(6.00,0.00,0.87)
+[SimRobot] MOVE linear=0.40 angular=-0.04 pose=(6.04,0.00,0.87)
+[SimRobot] MOVE linear=0.40 angular=-0.04 pose=(6.08,0.00,0.87)
+[SimRobot] MOVE linear=0.40 angular=-0.04 pose=(6.12,0.00,0.86)
+[SimRobot] MOVE linear=0.40 angular=-0.03 pose=(6.16,0.00,0.86)
+[SimRobot] MOVE linear=0.40 angular=-0.03 pose=(6.20,0.00,0.86)
+[SimRobot] MOVE linear=0.40 angular=-0.03 pose=(6.24,0.00,0.85)
+[SimRobot] MOVE linear=0.40 angular=-0.01 pose=(6.28,0.00,0.85)
+[SimRobot] MOVE linear=0.40 angular=-0.00 pose=(6.32,0.00,0.85)
+[SimRobot] MOVE linear=0.40 angular=0.01 pose=(6.36,0.00,0.85)
+[SimRobot] MOVE linear=0.40 angular=0.01 pose=(6.40,0.00,0.85)
+[SimRobot] MOVE linear=0.40 angular=0.01 pose=(6.44,0.00,0.86)
+[SimRobot] MOVE linear=0.40 angular=0.02 pose=(6.48,0.00,0.86)
+[SimRobot] MOVE linear=0.40 angular=0.02 pose=(6.52,0.00,0.86)
+[SimRobot] MOVE linear=0.40 angular=0.02 pose=(6.56,0.00,0.86)
+[SimRobot] MOVE linear=0.40 angular=0.02 pose=(6.60,0.00,0.86)
+[SimRobot] MOVE linear=0.40 angular=0.02 pose=(6.64,0.00,0.87)
+[SimRobot] MOVE linear=0.40 angular=0.02 pose=(6.68,0.00,0.87)
+[SimRobot] MOVE linear=0.40 angular=0.02 pose=(6.72,0.00,0.87)
+[SimRobot] MOVE linear=0.40 angular=0.02 pose=(6.76,0.00,0.87)
+[SimRobot] MOVE linear=0.40 angular=0.02 pose=(6.80,0.00,0.87)
+[SimRobot] MOVE linear=0.40 angular=0.02 pose=(6.84,0.00,0.87)
+[SimRobot] MOVE linear=0.40 angular=0.02 pose=(6.88,0.00,0.88)
+[SimRobot] MOVE linear=0.40 angular=0.01 pose=(6.92,0.00,0.88)
+[SimRobot] MOVE linear=0.40 angular=0.01 pose=(6.96,0.00,0.88)
+[SimRobot] MOVE linear=0.40 angular=0.01 pose=(7.00,0.00,0.88)
+[SimRobot] MOVE linear=0.40 angular=0.01 pose=(7.04,0.00,0.88)
+[SimRobot] MOVE linear=0.40 angular=0.01 pose=(7.08,0.00,0.88)
+[SimRobot] MOVE linear=0.40 angular=0.01 pose=(7.12,0.00,0.88)
+[SimRobot] MOVE linear=0.40 angular=0.00 pose=(7.16,0.00,0.88)
+[SimRobot] MOVE linear=0.40 angular=0.00 pose=(7.20,0.00,0.88)
+[SimRobot] MOVE linear=0.40 angular=0.00 pose=(7.24,0.00,0.88)
+[SimRobot] MOVE linear=0.40 angular=0.00 pose=(7.28,0.00,0.88)
+[SimRobot] MOVE linear=0.40 angular=0.01 pose=(7.32,0.00,0.88)
+[SimRobot] MOVE linear=0.40 angular=0.01 pose=(7.36,0.00,0.89)
+[SimRobot] MOVE linear=0.40 angular=0.01 pose=(7.40,0.00,0.89)
+[SimRobot] MOVE linear=0.40 angular=0.02 pose=(7.44,0.00,0.89)
+[SimRobot] MOVE linear=0.40 angular=0.02 pose=(7.48,0.00,0.89)
+[SimRobot] MOVE linear=0.40 angular=0.02 pose=(7.52,0.00,0.89)
+[SimRobot] MOVE linear=0.40 angular=0.02 pose=(7.56,0.00,0.89)
+[SimRobot] MOVE linear=0.40 angular=0.02 pose=(7.60,0.00,0.90)
+[SimRobot] MOVE linear=0.40 angular=0.02 pose=(7.64,0.00,0.90)
+[SimRobot] MOVE linear=0.40 angular=0.03 pose=(7.68,0.00,0.90)
+[SimRobot] MOVE linear=0.40 angular=0.02 pose=(7.72,0.00,0.90)
+[SimRobot] MOVE linear=0.40 angular=0.03 pose=(7.76,0.00,0.91)
+[SimRobot] MOVE linear=0.40 angular=0.03 pose=(7.80,0.00,0.91)
+[SimRobot] MOVE linear=0.40 angular=0.03 pose=(7.84,0.00,0.91)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(7.88,0.00,0.92)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(7.92,0.00,0.92)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(7.96,0.00,0.93)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(8.00,0.00,0.94)
+[SimRobot] MOVE linear=0.40 angular=0.08 pose=(8.04,0.00,0.94)
+[SimRobot] MOVE linear=0.40 angular=0.09 pose=(8.08,0.00,0.95)
+[SimRobot] MOVE linear=0.40 angular=0.10 pose=(8.12,0.00,0.96)
+[SimRobot] MOVE linear=0.40 angular=0.11 pose=(8.16,0.00,0.97)
+[SimRobot] MOVE linear=0.40 angular=0.11 pose=(8.20,0.00,0.99)
+[SimRobot] MOVE linear=0.40 angular=0.14 pose=(8.24,0.00,1.00)
+[SimRobot] MOVE linear=0.40 angular=0.14 pose=(8.28,0.00,1.01)
+[SimRobot] MOVE linear=0.40 angular=0.16 pose=(8.32,0.00,1.03)
+[SimRobot] MOVE linear=0.40 angular=0.16 pose=(8.36,0.00,1.05)
+[SimRobot] MOVE linear=0.40 angular=0.17 pose=(8.40,0.00,1.06)
+[SimRobot] MOVE linear=0.40 angular=0.20 pose=(8.44,0.00,1.08)
+[SimRobot] MOVE linear=0.40 angular=0.20 pose=(8.48,0.00,1.10)
+[SimRobot] MOVE linear=0.40 angular=0.23 pose=(8.52,0.00,1.12)
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
