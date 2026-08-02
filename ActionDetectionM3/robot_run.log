@@ -2350,3 +2350,173 @@
 [SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
 [SimRobot] STOP
 [SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] MOVE linear=0.40 angular=-0.02 pose=(0.04,0.00,-0.00)
+[SimRobot] MOVE linear=0.40 angular=-0.02 pose=(0.08,0.00,-0.00)
+[SimRobot] MOVE linear=0.40 angular=-0.02 pose=(0.12,0.00,-0.01)
+[SimRobot] MOVE linear=0.40 angular=-0.02 pose=(0.16,0.00,-0.01)
+[SimRobot] MOVE linear=0.40 angular=-0.02 pose=(0.20,0.00,-0.01)
+[SimRobot] MOVE linear=0.40 angular=-0.02 pose=(0.24,0.00,-0.01)
+[SimRobot] MOVE linear=0.40 angular=-0.02 pose=(0.28,0.00,-0.02)
+[SimRobot] MOVE linear=0.40 angular=-0.02 pose=(0.32,0.00,-0.02)
+[SimRobot] MOVE linear=0.40 angular=-0.02 pose=(0.36,0.00,-0.02)
+[SimRobot] MOVE linear=0.40 angular=-0.02 pose=(0.40,0.00,-0.02)
+[SimRobot] MOVE linear=0.40 angular=-0.02 pose=(0.44,0.00,-0.02)
+[SimRobot] MOVE linear=0.40 angular=-0.02 pose=(0.48,0.00,-0.02)
+[SimRobot] MOVE linear=0.40 angular=-0.02 pose=(0.52,0.00,-0.03)
+[SimRobot] MOVE linear=0.40 angular=-0.02 pose=(0.56,0.00,-0.03)
+[SimRobot] MOVE linear=0.40 angular=-0.02 pose=(0.60,0.00,-0.03)
+[SimRobot] MOVE linear=0.40 angular=-0.02 pose=(0.64,0.00,-0.03)
+[SimRobot] MOVE linear=0.40 angular=-0.02 pose=(0.68,0.00,-0.03)
+[SimRobot] MOVE linear=0.40 angular=-0.01 pose=(0.72,0.00,-0.04)
+[SimRobot] MOVE linear=0.40 angular=-0.01 pose=(0.76,0.00,-0.04)
+[SimRobot] MOVE linear=0.40 angular=-0.01 pose=(0.80,0.00,-0.04)
+[SimRobot] MOVE linear=0.40 angular=-0.00 pose=(0.84,0.00,-0.04)
+[SimRobot] MOVE linear=0.40 angular=-0.00 pose=(0.88,0.00,-0.04)
+[SimRobot] MOVE linear=0.40 angular=0.00 pose=(0.92,0.00,-0.04)
+[SimRobot] MOVE linear=0.40 angular=0.01 pose=(0.96,0.00,-0.04)
+[SimRobot] MOVE linear=0.40 angular=0.01 pose=(1.00,0.00,-0.04)
+[SimRobot] MOVE linear=0.40 angular=0.01 pose=(1.04,0.00,-0.04)
+[SimRobot] MOVE linear=0.40 angular=0.01 pose=(1.08,0.00,-0.03)
+[SimRobot] MOVE linear=0.40 angular=-0.00 pose=(1.12,0.00,-0.04)
+[SimRobot] MOVE linear=0.40 angular=-0.00 pose=(1.16,0.00,-0.04)
+[SimRobot] MOVE linear=0.40 angular=-0.01 pose=(1.20,0.00,-0.04)
+[SimRobot] MOVE linear=0.40 angular=-0.02 pose=(1.24,0.00,-0.04)
+[SimRobot] MOVE linear=0.40 angular=-0.03 pose=(1.28,0.00,-0.04)
+[SimRobot] MOVE linear=0.40 angular=-0.03 pose=(1.32,0.00,-0.04)
+[SimRobot] MOVE linear=0.40 angular=-0.04 pose=(1.36,0.00,-0.05)
+[SimRobot] MOVE linear=0.40 angular=-0.04 pose=(1.40,0.00,-0.05)
+[SimRobot] MOVE linear=0.40 angular=-0.04 pose=(1.44,0.00,-0.06)
+[SimRobot] MOVE linear=0.40 angular=-0.04 pose=(1.48,0.00,-0.06)
+[SimRobot] MOVE linear=0.40 angular=-0.04 pose=(1.52,0.00,-0.07)
+[SimRobot] MOVE linear=0.40 angular=-0.04 pose=(1.56,0.00,-0.07)
+[SimRobot] MOVE linear=0.40 angular=-0.02 pose=(1.60,0.00,-0.07)
+[SimRobot] MOVE linear=0.40 angular=-0.02 pose=(1.64,0.00,-0.07)
+[SimRobot] MOVE linear=0.40 angular=-0.01 pose=(1.68,0.00,-0.07)
+[SimRobot] MOVE linear=0.40 angular=-0.00 pose=(1.72,0.00,-0.07)
+[SimRobot] MOVE linear=0.40 angular=0.01 pose=(1.76,0.00,-0.07)
+[SimRobot] MOVE linear=0.40 angular=0.01 pose=(1.80,0.00,-0.07)
+[SimRobot] MOVE linear=0.40 angular=0.02 pose=(1.84,0.00,-0.07)
+[SimRobot] MOVE linear=0.40 angular=0.02 pose=(1.88,0.00,-0.07)
+[SimRobot] MOVE linear=0.40 angular=0.02 pose=(1.92,0.00,-0.07)
+[SimRobot] MOVE linear=0.40 angular=0.01 pose=(1.96,0.00,-0.07)
+[SimRobot] MOVE linear=0.40 angular=0.01 pose=(2.00,0.00,-0.06)
+[SimRobot] MOVE linear=0.40 angular=-0.00 pose=(2.04,0.00,-0.07)
+[SimRobot] MOVE linear=0.40 angular=-0.01 pose=(2.08,0.00,-0.07)
+[SimRobot] MOVE linear=0.40 angular=-0.02 pose=(2.12,0.00,-0.07)
+[SimRobot] MOVE linear=0.40 angular=-0.02 pose=(2.16,0.00,-0.07)
+[SimRobot] MOVE linear=0.40 angular=-0.03 pose=(2.20,0.00,-0.07)
+[SimRobot] MOVE linear=0.40 angular=-0.03 pose=(2.24,0.00,-0.08)
+[SimRobot] MOVE linear=0.40 angular=-0.02 pose=(2.28,0.00,-0.08)
+[SimRobot] MOVE linear=0.40 angular=-0.01 pose=(2.32,0.00,-0.08)
+[SimRobot] MOVE linear=0.40 angular=0.01 pose=(2.36,0.00,-0.08)
+[SimRobot] MOVE linear=0.40 angular=0.01 pose=(2.40,0.00,-0.08)
+[SimRobot] MOVE linear=0.40 angular=0.03 pose=(2.44,0.00,-0.07)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(2.48,0.00,-0.07)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(2.52,0.00,-0.06)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(2.56,0.00,-0.06)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(2.60,0.00,-0.05)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(2.64,0.00,-0.04)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(2.68,0.00,-0.04)
+[SimRobot] MOVE linear=0.40 angular=0.02 pose=(2.72,0.00,-0.04)
+[SimRobot] MOVE linear=0.40 angular=0.02 pose=(2.76,0.00,-0.03)
+[SimRobot] MOVE linear=0.40 angular=0.00 pose=(2.80,0.00,-0.03)
+[SimRobot] MOVE linear=0.40 angular=-0.06 pose=(2.84,0.00,-0.04)
+[SimRobot] MOVE linear=0.40 angular=-0.08 pose=(2.88,0.00,-0.05)
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 appears to have fallen
