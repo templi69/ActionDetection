@@ -77,7 +77,8 @@ def run(args):
     tracker = CentroidTracker()
 
     robot = SimulatedRobot(log_path=args.log) if args.robot == "sim" else SerialRobot(port=args.port)
-    engine = DecisionEngine(robot, frame_width=width)
+    from decision_engine import DecisionConfig
+    engine = DecisionEngine(robot, frame_width=width, config=DecisionConfig(proximity_area_ratio=0.9))
 
     frame_idx = 0
     try:
