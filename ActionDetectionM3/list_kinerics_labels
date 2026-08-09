@@ -1,0 +1,42 @@
+"""
+list_kinetics_labels.py
+
+Utility: dump every label the loaded VideoMAE model can predict.
+
+Use this to build an accurate ACTION_MAP instead of guessing label
+strings from memory -- Kinetics-400 label names are inconsistent
+(e.g. some are "walking the dog", not "walking"), and you want the
+exact strings your specific checkpoint uses.
+
+Run:
+    python list_kinetics_labels.py
+"""
+
+from transformers import VideoMAEForVideoClassification
+
+MODEL_NAME = "MCG-NJU/videomae-base-finetuned-kinetics"
+
+
+def main():
+    model = VideoMAEForVideoClassification.from_pretrained(MODEL_NAME)
+
+    labels = sorted(model.config.id2label.values())
+
+    print(f"Model: {MODEL_NAME}")
+    print(f"Total classes: {len(labels)}")
+    print()
+
+    for label in labels:
+        print(label)
+
+    # Also dump to a file so you can search/grep it easily.
+    with open("kinetics_labels.txt", "w") as f:
+        for label in labels:
+            f.write(label + "\n")
+
+    print()
+    print("Also written to kinetics_labels.txt")
+
+
+if __name__ == "__main__":
+    main()
