@@ -55,7 +55,7 @@ def draw_bbox(frame, bbox, person_id=None, confidence=None, color=(0, 255, 0)):
         label_parts.append(f"{confidence:.2f}")
     if label_parts:
         label = " | ".join(label_parts)
-        cv2.putText(frame, label, (x1, max(0, y1 - 8)),
+        cv2.putText(frame, label, (x1, max(0, y1 - 30)),
                     cv2.FONT_HERSHEY_SIMPLEX, 0.55, color, 2)
     return frame
 

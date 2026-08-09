@@ -5382,3 +5382,3587 @@
 [SimRobot] STOP
 [SimRobot] STOP
 [SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(0.04,0.00,0.01)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(0.08,0.00,0.01)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(0.12,0.00,0.02)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(0.16,0.00,0.03)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(0.20,0.00,0.03)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(0.24,0.00,0.04)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(0.28,0.00,0.05)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(0.32,0.00,0.05)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(0.36,0.00,0.06)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(0.40,0.00,0.07)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(0.44,0.00,0.07)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(0.48,0.00,0.08)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(0.52,0.00,0.09)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(0.56,0.00,0.09)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(0.60,0.00,0.10)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(0.64,0.00,0.11)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(0.68,0.00,0.11)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(0.72,0.00,0.12)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(0.76,0.00,0.13)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(0.80,0.00,0.13)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(0.84,0.00,0.14)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(0.88,0.00,0.14)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(0.92,0.00,0.15)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(0.96,0.00,0.16)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(1.00,0.00,0.16)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(1.04,0.00,0.17)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(1.08,0.00,0.18)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(1.12,0.00,0.18)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(1.16,0.00,0.19)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(1.20,0.00,0.20)
+[SimRobot] MOVE linear=0.40 angular=0.08 pose=(1.24,0.00,0.20)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(1.28,0.00,0.21)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(1.32,0.00,0.22)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(1.36,0.00,0.23)
+[SimRobot] MOVE linear=0.40 angular=0.08 pose=(1.40,0.00,0.23)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(1.44,0.00,0.24)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(1.48,0.00,0.25)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(1.52,0.00,0.25)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(1.56,0.00,0.26)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(1.60,0.00,0.26)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(1.64,0.00,0.27)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(1.68,0.00,0.28)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(1.72,0.00,0.28)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(1.76,0.00,0.29)
+[SimRobot] MOVE linear=0.40 angular=0.08 pose=(1.80,0.00,0.30)
+[SimRobot] MOVE linear=0.40 angular=0.08 pose=(1.84,0.00,0.30)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(1.88,0.00,0.31)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(1.92,0.00,0.32)
+[SimRobot] MOVE linear=0.40 angular=0.09 pose=(1.96,0.00,0.33)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(2.00,0.00,0.33)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(2.04,0.00,0.34)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(2.08,0.00,0.35)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(2.12,0.00,0.35)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(2.16,0.00,0.36)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(2.20,0.00,0.37)
+[SimRobot] MOVE linear=0.40 angular=0.08 pose=(2.24,0.00,0.37)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(2.28,0.00,0.38)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(2.32,0.00,0.39)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(2.36,0.00,0.39)
+[SimRobot] MOVE linear=0.40 angular=0.08 pose=(2.40,0.00,0.40)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(2.44,0.00,0.41)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(2.48,0.00,0.42)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(2.52,0.00,0.42)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(2.56,0.00,0.43)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(2.60,0.00,0.44)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(2.64,0.00,0.44)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(2.68,0.00,0.45)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(2.72,0.00,0.45)
+[SimRobot] MOVE linear=0.40 angular=0.08 pose=(2.76,0.00,0.46)
+[SimRobot] MOVE linear=0.40 angular=0.08 pose=(2.80,0.00,0.47)
+[SimRobot] MOVE linear=0.40 angular=0.10 pose=(2.84,0.00,0.48)
+[SimRobot] MOVE linear=0.40 angular=0.10 pose=(2.88,0.00,0.49)
+[SimRobot] MOVE linear=0.40 angular=0.09 pose=(2.92,0.00,0.50)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(2.96,0.00,0.51)
+[SimRobot] MOVE linear=0.40 angular=0.09 pose=(3.00,0.00,0.51)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(3.04,0.00,0.52)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(3.08,0.00,0.53)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(3.12,0.00,0.53)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(3.16,0.00,0.54)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(3.20,0.00,0.55)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(3.24,0.00,0.55)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(3.28,0.00,0.56)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(3.32,0.00,0.56)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(3.36,0.00,0.57)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(3.40,0.00,0.57)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(3.44,0.00,0.58)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(3.48,0.00,0.59)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(3.52,0.00,0.59)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(3.56,0.00,0.60)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(3.60,0.00,0.60)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(3.64,0.00,0.61)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(3.68,0.00,0.61)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(3.72,0.00,0.62)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(3.76,0.00,0.63)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(3.80,0.00,0.63)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(3.84,0.00,0.64)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(3.88,0.00,0.64)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(3.92,0.00,0.65)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(3.96,0.00,0.66)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(4.00,0.00,0.66)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(4.04,0.00,0.67)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(4.08,0.00,0.67)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(4.12,0.00,0.68)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(4.16,0.00,0.69)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(4.20,0.00,0.69)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(4.24,0.00,0.70)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(4.28,0.00,0.70)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(4.32,0.00,0.71)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(4.36,0.00,0.72)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(4.40,0.00,0.72)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(4.44,0.00,0.73)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(4.48,0.00,0.73)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(4.52,0.00,0.74)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(4.56,0.00,0.75)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(4.60,0.00,0.75)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(4.64,0.00,0.76)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(4.68,0.00,0.77)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(4.72,0.00,0.77)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(4.76,0.00,0.78)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(4.80,0.00,0.78)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(4.84,0.00,0.79)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(4.88,0.00,0.79)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(4.92,0.00,0.80)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(4.96,0.00,0.81)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(5.00,0.00,0.81)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(5.04,0.00,0.82)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(5.08,0.00,0.82)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(5.12,0.00,0.83)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(5.16,0.00,0.84)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(5.20,0.00,0.84)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(5.24,0.00,0.85)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(5.28,0.00,0.85)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(5.32,0.00,0.86)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(5.36,0.00,0.86)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(5.40,0.00,0.87)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(5.44,0.00,0.88)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(5.48,0.00,0.88)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(5.52,0.00,0.89)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(5.56,0.00,0.89)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(5.60,0.00,0.90)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(5.64,0.00,0.91)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(5.68,0.00,0.91)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(5.72,0.00,0.92)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(5.76,0.00,0.92)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(5.80,0.00,0.93)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(5.84,0.00,0.94)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(5.88,0.00,0.94)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(5.92,0.00,0.95)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(5.96,0.00,0.96)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(6.00,0.00,0.96)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(6.04,0.00,0.97)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(6.08,0.00,0.97)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(6.12,0.00,0.98)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(6.16,0.00,0.99)
+[SimRobot] MOVE linear=0.40 angular=0.08 pose=(6.20,0.00,0.99)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(6.24,0.00,1.00)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(6.28,0.00,1.01)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(6.32,0.00,1.01)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(6.36,0.00,1.02)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(6.40,0.00,1.03)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(6.44,0.00,1.04)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(6.48,0.00,1.04)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(6.52,0.00,1.05)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(6.56,0.00,1.06)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(6.60,0.00,1.06)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(6.64,0.00,1.07)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(6.68,0.00,1.08)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(6.72,0.00,1.08)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(6.76,0.00,1.09)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(6.80,0.00,1.10)
+[SimRobot] MOVE linear=0.40 angular=0.08 pose=(6.84,0.00,1.11)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(6.88,0.00,1.11)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(6.92,0.00,1.12)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(6.96,0.00,1.13)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(7.00,0.00,1.13)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(7.04,0.00,1.14)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(7.08,0.00,1.15)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(7.12,0.00,1.15)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(7.16,0.00,1.16)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(7.20,0.00,1.17)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(7.24,0.00,1.17)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(7.28,0.00,1.18)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(7.32,0.00,1.19)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(7.36,0.00,1.19)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(7.40,0.00,1.20)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(7.44,0.00,1.20)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(7.48,0.00,1.21)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(7.52,0.00,1.22)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(7.56,0.00,1.22)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(7.60,0.00,1.23)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(7.64,0.00,1.23)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(7.68,0.00,1.24)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(7.72,0.00,1.24)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(7.76,0.00,1.25)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(7.80,0.00,1.26)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(7.84,0.00,1.26)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(7.88,0.00,1.27)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(7.92,0.00,1.27)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(7.96,0.00,1.28)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(8.00,0.00,1.28)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(8.04,0.00,1.29)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(8.08,0.00,1.30)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(8.12,0.00,1.30)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(8.16,0.00,1.31)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(8.20,0.00,1.31)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(8.24,0.00,1.32)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(8.28,0.00,1.33)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(8.32,0.00,1.33)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(8.36,0.00,1.34)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(8.40,0.00,1.34)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(8.44,0.00,1.35)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(8.48,0.00,1.36)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(8.52,0.00,1.36)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(8.56,0.00,1.37)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(8.60,0.00,1.37)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(8.64,0.00,1.38)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(8.68,0.00,1.38)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(8.72,0.00,1.39)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(8.76,0.00,1.39)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(8.80,0.00,1.40)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(8.84,0.00,1.40)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(8.88,0.00,1.41)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(8.92,0.00,1.42)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(8.96,0.00,1.42)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(9.00,0.00,1.43)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(9.04,0.00,1.43)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(9.08,0.00,1.44)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(9.12,0.00,1.44)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(9.16,0.00,1.45)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(9.20,0.00,1.46)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(9.24,0.00,1.46)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(9.28,0.00,1.47)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(9.32,0.00,1.47)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(9.36,0.00,1.48)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(9.40,0.00,1.48)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(9.44,0.00,1.49)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(9.48,0.00,1.49)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(9.52,0.00,1.50)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(9.56,0.00,1.50)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(9.60,0.00,1.51)
+[SimRobot] MOVE linear=0.40 angular=0.07 pose=(9.64,0.00,1.52)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(9.68,0.00,1.52)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(9.72,0.00,1.53)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(9.76,0.00,1.53)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(9.80,0.00,1.54)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(9.84,0.00,1.55)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(9.88,0.00,1.55)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(9.92,0.00,1.56)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(9.96,0.00,1.56)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(10.00,0.00,1.57)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(10.04,0.00,1.57)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(10.08,0.00,1.58)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(10.12,0.00,1.58)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(10.16,0.00,1.59)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(10.20,0.00,1.59)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(10.24,0.00,1.60)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(10.28,0.00,1.60)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(10.32,0.00,1.61)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(10.36,0.00,1.62)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(10.40,0.00,1.62)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(10.44,0.00,1.63)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(10.48,0.00,1.63)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(10.52,0.00,1.64)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(10.56,0.00,1.64)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(10.60,0.00,1.65)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(10.64,0.00,1.65)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(10.68,0.00,1.66)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(10.72,0.00,1.67)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(10.76,0.00,1.67)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(10.80,0.00,1.68)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(10.84,0.00,1.68)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(10.88,0.00,1.69)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(10.92,0.00,1.69)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(10.96,0.00,1.70)
+[SimRobot] MOVE linear=0.40 angular=0.06 pose=(11.00,0.00,1.70)
+[SimRobot] MOVE linear=0.40 angular=0.05 pose=(11.04,0.00,1.71)
+[SimRobot] MOVE linear=0.40 angular=0.09 pose=(11.08,0.00,1.72)
+[SimRobot] MOVE linear=0.40 angular=0.03 pose=(11.12,0.00,1.72)
+[SimRobot] MOVE linear=0.40 angular=-0.01 pose=(11.16,0.00,1.72)
+[SimRobot] MOVE linear=0.40 angular=-0.01 pose=(11.20,0.00,1.72)
+[SimRobot] MOVE linear=0.40 angular=0.00 pose=(11.24,0.00,1.72)
+[SimRobot] MOVE linear=0.40 angular=0.01 pose=(11.28,0.00,1.72)
+[SimRobot] MOVE linear=0.40 angular=0.03 pose=(11.32,0.00,1.72)
+[SimRobot] MOVE linear=0.40 angular=0.03 pose=(11.36,0.00,1.72)
+[SimRobot] MOVE linear=0.40 angular=-0.09 pose=(11.40,0.00,1.72)
+[SimRobot] MOVE linear=0.40 angular=-0.06 pose=(11.44,0.00,1.71)
+[SimRobot] MOVE linear=0.40 angular=-0.03 pose=(11.48,0.00,1.71)
+[SimRobot] MOVE linear=0.40 angular=0.13 pose=(11.52,0.00,1.72)
+[SimRobot] MOVE linear=0.40 angular=0.10 pose=(11.56,0.00,1.73)
+[SimRobot] MOVE linear=0.40 angular=0.03 pose=(11.60,0.00,1.73)
+[SimRobot] MOVE linear=0.40 angular=-0.01 pose=(11.64,0.00,1.73)
+[SimRobot] MOVE linear=0.40 angular=0.02 pose=(11.68,0.00,1.73)
+[SimRobot] MOVE linear=0.40 angular=-0.09 pose=(11.72,0.00,1.73)
+[SimRobot] MOVE linear=0.40 angular=-0.14 pose=(11.76,0.00,1.71)
+[SimRobot] MOVE linear=0.40 angular=-0.11 pose=(11.80,0.00,1.70)
+[SimRobot] MOVE linear=0.40 angular=-0.16 pose=(11.84,0.00,1.68)
+[SimRobot] MOVE linear=0.40 angular=-0.16 pose=(11.88,0.00,1.67)
+[SimRobot] MOVE linear=0.40 angular=-0.17 pose=(11.92,0.00,1.65)
+[SimRobot] MOVE linear=0.40 angular=-0.19 pose=(11.96,0.00,1.63)
+[SimRobot] MOVE linear=0.40 angular=-0.26 pose=(12.00,0.00,1.61)
+[SimRobot] MOVE linear=0.40 angular=-0.20 pose=(12.04,0.00,1.59)
+[SimRobot] MOVE linear=0.40 angular=-0.19 pose=(12.08,0.00,1.57)
+[SimRobot] MOVE linear=0.40 angular=-0.28 pose=(12.12,0.00,1.54)
+[SimRobot] MOVE linear=0.40 angular=-0.25 pose=(12.16,0.00,1.51)
+[SimRobot] MOVE linear=0.40 angular=-0.25 pose=(12.20,0.00,1.49)
+[SimRobot] MOVE linear=0.40 angular=-0.16 pose=(12.24,0.00,1.47)
+[SimRobot] MOVE linear=0.40 angular=-0.16 pose=(12.28,0.00,1.46)
+[SimRobot] MOVE linear=0.40 angular=-0.19 pose=(12.32,0.00,1.44)
+[SimRobot] MOVE linear=0.40 angular=-0.15 pose=(12.36,0.00,1.42)
+[SimRobot] MOVE linear=0.40 angular=-0.15 pose=(12.40,0.00,1.41)
+[SimRobot] MOVE linear=0.40 angular=-0.10 pose=(12.44,0.00,1.40)
+[SimRobot] MOVE linear=0.40 angular=-0.10 pose=(12.48,0.00,1.39)
+[SimRobot] MOVE linear=0.40 angular=-0.13 pose=(12.52,0.00,1.37)
+[SimRobot] MOVE linear=0.40 angular=-0.17 pose=(12.56,0.00,1.36)
+[SimRobot] MOVE linear=0.40 angular=-0.18 pose=(12.60,0.00,1.34)
+[SimRobot] MOVE linear=0.40 angular=-0.18 pose=(12.64,0.00,1.32)
+[SimRobot] MOVE linear=0.25 angular=-0.11 pose=(12.66,0.00,1.31)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.12 pose=(12.69,0.00,1.30)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.16 pose=(12.71,0.00,1.28)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.09 pose=(12.74,0.00,1.27)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.09 pose=(12.76,0.00,1.26)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.19 pose=(12.79,0.00,1.24)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.21 pose=(12.81,0.00,1.22)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.12 pose=(12.84,0.00,1.21)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.22 pose=(12.86,0.00,1.19)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.22 pose=(12.89,0.00,1.17)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.24 pose=(12.91,0.00,1.14)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.24 pose=(12.94,0.00,1.12)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.24 pose=(12.96,0.00,1.10)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.26 pose=(12.99,0.00,1.07)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.25 pose=(13.01,0.00,1.05)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.26 pose=(13.04,0.00,1.02)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.26 pose=(13.06,0.00,0.99)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.25 pose=(13.09,0.00,0.97)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.21 pose=(13.11,0.00,0.95)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.20 pose=(13.14,0.00,0.93)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.20 pose=(13.16,0.00,0.91)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.19 pose=(13.19,0.00,0.89)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.19 pose=(13.21,0.00,0.87)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.19 pose=(13.24,0.00,0.85)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.24 pose=(13.26,0.00,0.83)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.23 pose=(13.29,0.00,0.80)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.24 pose=(13.31,0.00,0.78)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.23 pose=(13.34,0.00,0.76)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.23 pose=(13.36,0.00,0.74)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.21 pose=(13.39,0.00,0.71)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.20 pose=(13.41,0.00,0.69)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.20 pose=(13.44,0.00,0.67)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.20 pose=(13.46,0.00,0.65)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.21 pose=(13.49,0.00,0.63)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.21 pose=(13.51,0.00,0.61)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.22 pose=(13.54,0.00,0.59)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.23 pose=(13.56,0.00,0.57)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.25 pose=(13.59,0.00,0.54)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.27 pose=(13.61,0.00,0.52)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.27 pose=(13.64,0.00,0.49)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.27 pose=(13.66,0.00,0.46)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.27 pose=(13.69,0.00,0.44)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.27 pose=(13.71,0.00,0.41)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.27 pose=(13.74,0.00,0.38)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.25 pose=(13.76,0.00,0.36)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.24 pose=(13.79,0.00,0.33)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.25 pose=(13.81,0.00,0.31)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.26 pose=(13.84,0.00,0.28)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.27 pose=(13.86,0.00,0.26)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.20 pose=(13.89,0.00,0.24)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.25 angular=-0.16 pose=(13.91,0.00,0.22)
+[SimRobot] ALERT: Assisting person 0
+[SimRobot] MOVE linear=0.40 angular=-0.11 pose=(13.95,0.00,0.21)
+[SimRobot] MOVE linear=0.40 angular=-0.10 pose=(13.99,0.00,0.20)
+[SimRobot] MOVE linear=0.40 angular=-0.11 pose=(14.03,0.00,0.19)
+[SimRobot] MOVE linear=0.40 angular=-0.12 pose=(14.07,0.00,0.18)
+[SimRobot] MOVE linear=0.40 angular=-0.12 pose=(14.11,0.00,0.16)
+[SimRobot] MOVE linear=0.40 angular=-0.12 pose=(14.15,0.00,0.15)
+[SimRobot] MOVE linear=0.40 angular=-0.10 pose=(14.19,0.00,0.14)
+[SimRobot] MOVE linear=0.40 angular=-0.10 pose=(14.23,0.00,0.13)
+[SimRobot] MOVE linear=0.40 angular=-0.10 pose=(14.27,0.00,0.12)
+[SimRobot] MOVE linear=0.40 angular=-0.10 pose=(14.31,0.00,0.11)
+[SimRobot] MOVE linear=0.40 angular=-0.09 pose=(14.35,0.00,0.10)
+[SimRobot] MOVE linear=0.40 angular=-0.09 pose=(14.39,0.00,0.09)
+[SimRobot] MOVE linear=0.40 angular=-0.07 pose=(14.43,0.00,0.09)
+[SimRobot] MOVE linear=0.40 angular=-0.07 pose=(14.47,0.00,0.08)
+[SimRobot] MOVE linear=0.40 angular=-0.08 pose=(14.51,0.00,0.07)
+[SimRobot] MOVE linear=0.40 angular=-0.07 pose=(14.55,0.00,0.06)
+[SimRobot] MOVE linear=0.40 angular=-0.07 pose=(14.59,0.00,0.06)
+[SimRobot] MOVE linear=0.40 angular=-0.08 pose=(14.63,0.00,0.05)
+[SimRobot] MOVE linear=0.40 angular=-0.09 pose=(14.67,0.00,0.04)
+[SimRobot] MOVE linear=0.40 angular=-0.08 pose=(14.71,0.00,0.03)
+[SimRobot] MOVE linear=0.40 angular=-0.08 pose=(14.75,0.00,0.02)
+[SimRobot] MOVE linear=0.40 angular=-0.05 pose=(14.79,0.00,0.02)
+[SimRobot] MOVE linear=0.40 angular=-0.08 pose=(14.83,0.00,0.01)
+[SimRobot] MOVE linear=0.40 angular=-0.08 pose=(14.87,0.00,0.00)
+[SimRobot] MOVE linear=0.40 angular=-0.09 pose=(14.91,0.00,-0.01)
+[SimRobot] MOVE linear=0.40 angular=-0.09 pose=(14.95,0.00,-0.02)
+[SimRobot] MOVE linear=0.40 angular=-0.12 pose=(14.99,0.00,-0.03)
+[SimRobot] MOVE linear=0.40 angular=-0.12 pose=(15.03,0.00,-0.04)
+[SimRobot] MOVE linear=0.40 angular=-0.12 pose=(15.07,0.00,-0.05)
+[SimRobot] MOVE linear=0.40 angular=-0.09 pose=(15.11,0.00,-0.06)
+[SimRobot] MOVE linear=0.40 angular=-0.13 pose=(15.15,0.00,-0.07)
+[SimRobot] MOVE linear=0.40 angular=-0.13 pose=(15.19,0.00,-0.09)
+[SimRobot] MOVE linear=0.40 angular=-0.17 pose=(15.23,0.00,-0.10)
+[SimRobot] MOVE linear=0.40 angular=-0.16 pose=(15.27,0.00,-0.12)
+[SimRobot] MOVE linear=0.40 angular=-0.18 pose=(15.31,0.00,-0.14)
+[SimRobot] MOVE linear=0.40 angular=-0.17 pose=(15.35,0.00,-0.16)
+[SimRobot] MOVE linear=0.40 angular=-0.18 pose=(15.39,0.00,-0.17)
+[SimRobot] MOVE linear=0.40 angular=-0.19 pose=(15.43,0.00,-0.19)
+[SimRobot] MOVE linear=0.40 angular=-0.17 pose=(15.47,0.00,-0.21)
+[SimRobot] MOVE linear=0.40 angular=-0.16 pose=(15.51,0.00,-0.22)
+[SimRobot] MOVE linear=0.40 angular=-0.15 pose=(15.55,0.00,-0.24)
+[SimRobot] MOVE linear=0.40 angular=-0.14 pose=(15.59,0.00,-0.25)
+[SimRobot] MOVE linear=0.40 angular=-0.14 pose=(15.63,0.00,-0.27)
+[SimRobot] MOVE linear=0.40 angular=-0.14 pose=(15.67,0.00,-0.28)
+[SimRobot] MOVE linear=0.40 angular=-0.14 pose=(15.71,0.00,-0.29)
+[SimRobot] MOVE linear=0.40 angular=-0.11 pose=(15.75,0.00,-0.31)
+[SimRobot] MOVE linear=0.40 angular=-0.12 pose=(15.79,0.00,-0.32)
+[SimRobot] MOVE linear=0.40 angular=-0.12 pose=(15.83,0.00,-0.33)
+[SimRobot] MOVE linear=0.40 angular=-0.12 pose=(15.87,0.00,-0.34)
+[SimRobot] MOVE linear=0.40 angular=-0.14 pose=(15.91,0.00,-0.36)
+[SimRobot] MOVE linear=0.40 angular=-0.15 pose=(15.95,0.00,-0.37)
+[SimRobot] MOVE linear=0.40 angular=-0.13 pose=(15.99,0.00,-0.38)
+[SimRobot] MOVE linear=0.40 angular=-0.13 pose=(16.03,0.00,-0.40)
+[SimRobot] MOVE linear=0.40 angular=-0.08 pose=(16.07,0.00,-0.41)
+[SimRobot] MOVE linear=0.40 angular=0.13 pose=(16.11,0.00,-0.39)
+[SimRobot] MOVE linear=0.40 angular=0.14 pose=(16.15,0.00,-0.38)
+[SimRobot] MOVE linear=0.40 angular=0.15 pose=(16.19,0.00,-0.36)
+[SimRobot] MOVE linear=0.40 angular=0.15 pose=(16.23,0.00,-0.35)
+[SimRobot] MOVE linear=0.40 angular=0.14 pose=(16.27,0.00,-0.33)
+[SimRobot] MOVE linear=0.40 angular=0.14 pose=(16.31,0.00,-0.32)
+[SimRobot] MOVE linear=0.40 angular=0.14 pose=(16.35,0.00,-0.31)
+[SimRobot] MOVE linear=0.40 angular=0.13 pose=(16.39,0.00,-0.29)
+[SimRobot] MOVE linear=0.40 angular=0.12 pose=(16.43,0.00,-0.28)
+[SimRobot] MOVE linear=0.40 angular=0.12 pose=(16.47,0.00,-0.27)
+[SimRobot] MOVE linear=0.40 angular=0.13 pose=(16.51,0.00,-0.26)
+[SimRobot] MOVE linear=0.40 angular=0.11 pose=(16.55,0.00,-0.25)
+[SimRobot] MOVE linear=0.40 angular=0.13 pose=(16.59,0.00,-0.23)
+[SimRobot] MOVE linear=0.40 angular=0.11 pose=(16.63,0.00,-0.22)
+[SimRobot] MOVE linear=0.40 angular=0.12 pose=(16.67,0.00,-0.21)
+[SimRobot] MOVE linear=0.40 angular=0.14 pose=(16.71,0.00,-0.20)
+[SimRobot] MOVE linear=0.40 angular=0.15 pose=(16.75,0.00,-0.18)
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 3 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 3 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 3 too close to robot
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 1 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 1 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 1 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 2 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 2 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 2 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 2 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 2 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 2 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 2 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 2 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 2 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 2 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 3 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 3 too close to robot
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 0 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 4 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 4 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 4 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 4 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 4 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 4 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 4 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 4 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 4 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 4 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 4 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 4 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 5 appears to have fallen (torso angle 62.8°)
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 5 appears to have fallen (torso angle 65.7°)
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 5 appears to have fallen (torso angle 79.9°)
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 5 appears to have fallen (torso angle 74.4°)
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 5 appears to have fallen (torso angle 64.7°)
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 5 appears to have fallen (torso angle 62.5°)
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 5 appears to have fallen (torso angle 63.7°)
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 5 appears to have fallen (torso angle 56.5°)
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 6 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 7 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 9 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 9 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 9 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 9 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 9 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 9 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 9 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 9 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 9 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 9 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 9 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 9 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 9 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 9 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 9 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 9 too close to robot
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 1 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 1 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 1 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 1 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 1 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 1 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 1 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 1 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 1 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 1 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 1 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 1 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 1 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 1 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 1 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 1 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 1 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 1 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 1 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 1 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 1 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 1 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 1 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 1 too close to robot
+[SimRobot] STOP
+[SimRobot] ALERT: EMERGENCY STOP: person 1 too close to robot

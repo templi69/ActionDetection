@@ -1,107 +1,566 @@
 """
 safety.py
-Member 4 - Deliverable: Emergency stop & assistance safety checks
-Pure functions so they're easy to unit test without a robot or camera.
-All checks work directly off pose landmarks / bboxes, independent of
-whatever action-recognition labels Member 3 provides -- this is the
-safety net that still works even if that classifier is wrong or absent.
+Member 4 - Safety Layer
+
+Safety checks for the robot decision system.
+
+Priority:
+    1. Pose-based fall detection
+    2. VideoMAE falling detection
+    3. Proximity / collision risk
+    4. Tracking-loss handling
+
+VideoMAE action predictions are only considered for safety when
+their confidence is >= ACTION_FALL_CONFIDENCE_THRESHOLD.
 """
 
 import math
 
-FALL_TORSO_ANGLE_DEG = 55          # from vertical; more horizontal => likely fallen
+
+# ==========================================================
+# CONFIGURATION
+# ==========================================================
+
+FALL_TORSO_ANGLE_DEG = 55
+
 FALL_MIN_VISIBILITY = 0.5
 
+# VideoMAE "falling" must be at least this confident
+# before it can trigger an emergency stop.
+ACTION_FALL_CONFIDENCE_THRESHOLD = 0.60
+
+
+# ==========================================================
+# LANDMARK HELPERS
+# ==========================================================
 
 def _get_landmark(landmarks, name):
+    """
+    Safely find a landmark by name.
+
+    Returns:
+        Landmark dictionary or None.
+    """
+
     for lm in landmarks or []:
-        if lm["name"] == name:
+
+        if not isinstance(lm, dict):
+            continue
+
+        if lm.get("name") == name:
             return lm
+
     return None
 
+
+# ==========================================================
+# TORSO FALL DETECTION
+# ==========================================================
 
 def _torso_angle_from_vertical(landmarks):
     """
-    Rough fall heuristic: angle of the line from mid-shoulder to mid-hip,
-    measured from vertical. A standing/sitting person is close to 0-20deg;
-    someone lying on the ground is closer to 90deg.
+    Estimate torso angle relative to vertical.
+
+    Standing person:
+        approximately 0-20 degrees
+
+    Horizontal / fallen person:
+        approximately 90 degrees
+
+    Returns:
+        Angle in degrees, or None if landmarks are invalid.
     """
-    ls = _get_landmark(landmarks, "LEFT_SHOULDER")
-    rs = _get_landmark(landmarks, "RIGHT_SHOULDER")
-    lh = _get_landmark(landmarks, "LEFT_HIP")
-    rh = _get_landmark(landmarks, "RIGHT_HIP")
+
+    ls = _get_landmark(
+        landmarks,
+        "LEFT_SHOULDER"
+    )
+
+    rs = _get_landmark(
+        landmarks,
+        "RIGHT_SHOULDER"
+    )
+
+    lh = _get_landmark(
+        landmarks,
+        "LEFT_HIP"
+    )
+
+    rh = _get_landmark(
+        landmarks,
+        "RIGHT_HIP"
+    )
+
+
     if not all([ls, rs, lh, rh]):
         return None
-    if min(ls["visibility"], rs["visibility"], lh["visibility"], rh["visibility"]) < FALL_MIN_VISIBILITY:
+
+
+    try:
+
+        visibility_values = [
+
+            float(ls.get("visibility", 0.0)),
+
+            float(rs.get("visibility", 0.0)),
+
+            float(lh.get("visibility", 0.0)),
+
+            float(rh.get("visibility", 0.0))
+
+        ]
+
+    except (
+        TypeError,
+        ValueError
+    ):
+
         return None
 
-    shoulder_mid = ((ls["x"] + rs["x"]) / 2.0, (ls["y"] + rs["y"]) / 2.0)
-    hip_mid = ((lh["x"] + rh["x"]) / 2.0, (lh["y"] + rh["y"]) / 2.0)
+
+    if min(visibility_values) < FALL_MIN_VISIBILITY:
+        return None
+
+
+    try:
+
+        shoulder_mid = (
+
+            (
+                float(ls["x"])
+                +
+                float(rs["x"])
+            ) / 2.0,
+
+            (
+                float(ls["y"])
+                +
+                float(rs["y"])
+            ) / 2.0
+
+        )
+
+
+        hip_mid = (
+
+            (
+                float(lh["x"])
+                +
+                float(rh["x"])
+            ) / 2.0,
+
+            (
+                float(lh["y"])
+                +
+                float(rh["y"])
+            ) / 2.0
+
+        )
+
+    except (
+        KeyError,
+        TypeError,
+        ValueError
+    ):
+
+        return None
+
 
     dx = hip_mid[0] - shoulder_mid[0]
+
     dy = hip_mid[1] - shoulder_mid[1]
+
+
     if dx == 0 and dy == 0:
         return None
-    return math.degrees(math.atan2(abs(dx), abs(dy)))
 
+
+    angle = math.degrees(
+        math.atan2(
+            abs(dx),
+            abs(dy)
+        )
+    )
+
+
+    return angle
+
+
+# ==========================================================
+# POSE-BASED FALL CHECK
+# ==========================================================
 
 def check_fall(tracked_people):
-    """Returns the first person whose torso geometry suggests a fall, or None."""
+    """
+    Detect a fall using body geometry.
+
+    This check is independent of VideoMAE.
+
+    Returns:
+        {
+            "id": person_id,
+            "torso_angle_deg": angle
+        }
+
+        or None.
+    """
+
     for person in tracked_people:
-        angle = _torso_angle_from_vertical(person.get("landmarks"))
-        if angle is not None and angle > FALL_TORSO_ANGLE_DEG:
-            return {"id": person["id"], "torso_angle_deg": angle}
+
+        angle = _torso_angle_from_vertical(
+            person.get("landmarks")
+        )
+
+
+        if (
+            angle is not None
+            and angle > FALL_TORSO_ANGLE_DEG
+        ):
+
+            return {
+
+                "id": person["id"],
+
+                "torso_angle_deg": angle
+
+            }
+
+
     return None
 
 
-def check_proximity_risk(tracked_people, frame_width, area_ratio_threshold, frame_height=None):
+# ==========================================================
+# ACTION-BASED FALL CHECK
+# ==========================================================
+
+def check_action_fall(
+    tracked_people,
+    confidence_threshold=ACTION_FALL_CONFIDENCE_THRESHOLD
+):
     """
-    Flags a person whose bbox occupies a large fraction of the frame,
-    i.e. they're very close to the camera/robot -> collision risk.
+    Detect a fall using the action recognizer.
+
+    VideoMAE must report:
+
+        action == "falling"
+
+    AND:
+
+        confidence >= 0.60
+
+    Returns:
+
+        {
+            "id": person_id,
+            "action": "falling",
+            "confidence": confidence
+        }
+
+        or None.
     """
-    frame_height = frame_height or frame_width * 0.5625  # assume 16:9 if unknown
-    frame_area = frame_width * frame_height
+
+    for person in tracked_people:
+
+        action = str(
+            person.get(
+                "action",
+                "unknown"
+            )
+        ).strip().lower()
+
+
+        try:
+
+            confidence = float(
+                person.get(
+                    "action_confidence",
+                    0.0
+                )
+            )
+
+        except (
+            TypeError,
+            ValueError
+        ):
+
+            confidence = 0.0
+
+
+        if (
+
+            action == "falling"
+
+            and confidence >= confidence_threshold
+
+        ):
+
+            return {
+
+                "id": person["id"],
+
+                "action": action,
+
+                "confidence": confidence
+
+            }
+
+
+    return None
+
+
+# ==========================================================
+# PROXIMITY / COLLISION CHECK
+# ==========================================================
+
+def check_proximity_risk(
+    tracked_people,
+    frame_width,
+    area_ratio_threshold,
+    frame_height=None
+):
+    """
+    Detect a person who is very close to the camera/robot.
+
+    A large bounding-box area means the person is likely
+    physically close.
+
+    Returns:
+
+        {
+            "id": person_id,
+            "area_ratio": ratio
+        }
+
+        or None.
+    """
+
+    if frame_width <= 0:
+        return None
+
+
+    # If actual frame height isn't supplied,
+    # assume 16:9.
+    if frame_height is None:
+
+        frame_height = (
+            frame_width * 0.5625
+        )
+
+
+    frame_area = (
+        frame_width * frame_height
+    )
+
+
     if frame_area <= 0:
         return None
 
+
     for person in tracked_people:
-        x1, y1, x2, y2 = person["bbox"]
-        box_area = max(0, x2 - x1) * max(0, y2 - y1)
-        if (box_area / frame_area) > area_ratio_threshold:
-            return {"id": person["id"], "area_ratio": box_area / frame_area}
+
+        bbox = person.get("bbox")
+
+
+        if not bbox or len(bbox) != 4:
+            continue
+
+
+        try:
+
+            x1, y1, x2, y2 = map(
+                float,
+                bbox
+            )
+
+        except (
+            TypeError,
+            ValueError
+        ):
+
+            continue
+
+
+        box_width = max(
+            0.0,
+            x2 - x1
+        )
+
+        box_height = max(
+            0.0,
+            y2 - y1
+        )
+
+
+        box_area = (
+            box_width
+            *
+            box_height
+        )
+
+
+        area_ratio = (
+            box_area
+            /
+            frame_area
+        )
+
+
+        if area_ratio > area_ratio_threshold:
+
+            return {
+
+                "id": person["id"],
+
+                "area_ratio": area_ratio
+
+            }
+
+
     return None
 
 
-def check_tracking_lost(target_id, frame_idx, last_seen_frame, grace_frames):
-    last_seen = last_seen_frame.get(target_id)
+# ==========================================================
+# TRACKING LOST
+# ==========================================================
+
+def check_tracking_lost(
+    target_id,
+    frame_idx,
+    last_seen_frame,
+    grace_frames
+):
+    """
+    Determine whether a previously tracked target
+    has been missing for too long.
+    """
+
+    last_seen = last_seen_frame.get(
+        target_id
+    )
+
+
     if last_seen is None:
         return True
-    return (frame_idx - last_seen) > grace_frames
 
+
+    return (
+        frame_idx - last_seen
+    ) > grace_frames
+
+
+# ==========================================================
+# FALLBACK ACTION
+# ==========================================================
 
 def infer_fallback_action(landmarks):
     """
-    Rough placeholder action inference from landmarks alone, so this module
-    (and the decision engine) can be developed and tested before Member 3's
-    real action-recognition classifier exists. Replace calls to this with
-    Member 3's output once it's ready -- keep this only as a dev stub /
-    redundancy check, since the fall-detection path above already covers
-    the safety-critical case regardless of what "action" says.
+    Rough fallback action inference.
+
+    This is NOT the main action recognizer.
+
+    It exists as a backup when VideoMAE is unavailable.
+
+    Possible outputs:
+
+        falling
+        waving
+        walking
+        unknown
     """
+
     if not landmarks:
         return "unknown"
 
-    angle = _torso_angle_from_vertical(landmarks)
-    if angle is not None and angle > FALL_TORSO_ANGLE_DEG:
+
+    # ------------------------------------------------------
+    # FALL
+    # ------------------------------------------------------
+
+    angle = _torso_angle_from_vertical(
+        landmarks
+    )
+
+
+    if (
+
+        angle is not None
+
+        and angle > FALL_TORSO_ANGLE_DEG
+
+    ):
+
         return "falling"
 
-    l_wrist = _get_landmark(landmarks, "LEFT_WRIST")
-    l_shoulder = _get_landmark(landmarks, "LEFT_SHOULDER")
-    r_wrist = _get_landmark(landmarks, "RIGHT_WRIST")
-    r_shoulder = _get_landmark(landmarks, "RIGHT_SHOULDER")
-    if l_wrist and l_shoulder and l_wrist["y"] < l_shoulder["y"] - 20:
-        return "waving"
-    if r_wrist and r_shoulder and r_wrist["y"] < r_shoulder["y"] - 20:
-        return "waving"
+
+    # ------------------------------------------------------
+    # WAVING
+    # ------------------------------------------------------
+
+    l_wrist = _get_landmark(
+        landmarks,
+        "LEFT_WRIST"
+    )
+
+    l_shoulder = _get_landmark(
+        landmarks,
+        "LEFT_SHOULDER"
+    )
+
+    r_wrist = _get_landmark(
+        landmarks,
+        "RIGHT_WRIST"
+    )
+
+    r_shoulder = _get_landmark(
+        landmarks,
+        "RIGHT_SHOULDER"
+    )
+
+
+    if l_wrist and l_shoulder:
+
+        try:
+
+            if (
+                float(l_wrist["y"])
+                <
+                float(l_shoulder["y"]) - 20
+            ):
+
+                return "waving"
+
+        except (
+            KeyError,
+            TypeError,
+            ValueError
+        ):
+
+            pass
+
+
+    if r_wrist and r_shoulder:
+
+        try:
+
+            if (
+                float(r_wrist["y"])
+                <
+                float(r_shoulder["y"]) - 20
+            ):
+
+                return "waving"
+
+        except (
+            KeyError,
+            TypeError,
+            ValueError
+        ):
+
+            pass
+
+
+    # ------------------------------------------------------
+    # DEFAULT
+    # ------------------------------------------------------
 
     return "walking"
