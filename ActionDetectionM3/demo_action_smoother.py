@@ -3,7 +3,7 @@ from action_smoother import ActionSmoother
 
 smoother = ActionSmoother(
     window_size=7,
-    confidence_threshold=0.15
+    stable_confidence_threshold=0.15
 )
 
 
