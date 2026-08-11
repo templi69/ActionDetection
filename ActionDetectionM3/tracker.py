@@ -146,7 +146,7 @@ class CentroidTracker:
 
         return detections
 
-    def _register(self, centroid, bbox):
+    def _register(self, centroid, bbox): 
         tid = self.next_id
         self.tracks[tid] = {"centroid": centroid, "bbox": bbox, "missed": 0}
         self.next_id += 1
