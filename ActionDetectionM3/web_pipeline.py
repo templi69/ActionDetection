@@ -132,7 +132,15 @@ def draw_action_label(frame, person):
     action = person.get("action", "unknown")
     confidence = float(person.get("action_confidence", 0.0) or 0.0)
 
-    text = f"ID {person_id}: {action} {confidence:.2f}"
+    # "unknown" means VideoMAE's raw Kinetics label just isn't one the
+    # robot acts on -- show that raw label instead of the dead-end
+    # "unknown" so it's still useful for eyeballing what the model saw.
+    raw_action = person.get("raw_action")
+    if action == "unknown" and raw_action and raw_action != "unknown":
+        raw_confidence = float(person.get("raw_confidence", 0.0) or 0.0)
+        text = f"ID {person_id}: unknown ({raw_action} {raw_confidence:.2f})"
+    else:
+        text = f"ID {person_id}: {action} {confidence:.2f}"
 
     text_x = int(x1)
     text_y = max(20, int(y1) - 30)
@@ -275,13 +283,20 @@ def capture_loop(args):
                     )
 
                 if person_id not in last_actions:
-                    last_actions[person_id] = {"action": "unknown", "confidence": 0.0}
+                    last_actions[person_id] = {
+                        "action": "unknown",
+                        "confidence": 0.0,
+                        "raw_action": "unknown",
+                        "raw_confidence": 0.0,
+                    }
 
                 sequence = action_buffer.add_frame(person_id, frame)
 
                 # Persist last known action between VideoMAE cycles.
                 person["action"] = last_actions[person_id]["action"]
                 person["action_confidence"] = last_actions[person_id]["confidence"]
+                person["raw_action"] = last_actions[person_id]["raw_action"]
+                person["raw_confidence"] = last_actions[person_id]["raw_confidence"]
 
                 # ==================================================
                 # 4. VIDEOMAE
@@ -302,13 +317,19 @@ def capture_loop(args):
                         stable_action = stable_result["action"]
                         stable_confidence = float(stable_result["confidence"])
 
+                        raw_model_action = result.get("raw_action", raw_action)
+
                         last_actions[person_id] = {
                             "action": stable_action,
                             "confidence": stable_confidence,
+                            "raw_action": raw_model_action,
+                            "raw_confidence": raw_confidence,
                         }
 
                         person["action"] = stable_action
                         person["action_confidence"] = stable_confidence
+                        person["raw_action"] = raw_model_action
+                        person["raw_confidence"] = raw_confidence
 
                     except Exception as e:
                         print(f"[Person {person_id}] VideoMAE error: {e}")
@@ -351,6 +372,8 @@ def capture_loop(args):
                     "id": p["id"],
                     "action": p.get("action", "unknown"),
                     "confidence": round(float(p.get("action_confidence", 0.0) or 0.0), 3),
+                    "raw_action": p.get("raw_action", "unknown"),
+                    "raw_confidence": round(float(p.get("raw_confidence", 0.0) or 0.0), 3),
                     "bbox": list(p["bbox"]),
                 }
                 for p in tracked_people
@@ -464,7 +487,7 @@ PAGE_TEMPLATE = """
       <div><strong>Reason:</strong> <span id="reason">-</span></div>
       <table>
         <thead>
-          <tr><th>ID</th><th>Action</th><th>Conf.</th></tr>
+          <tr><th>ID</th><th>Action</th><th>Conf.</th><th>Raw label</th></tr>
         </thead>
         <tbody id="persons"></tbody>
       </table>
@@ -492,7 +515,14 @@ PAGE_TEMPLATE = """
         tbody.innerHTML = '';
         data.persons.forEach(p => {
           const tr = document.createElement('tr');
-          tr.innerHTML = `<td>${p.id}</td><td>${p.action}</td><td>${p.confidence.toFixed(2)}</td>`;
+          const rawCell = (p.action === 'unknown' && p.raw_action && p.raw_action !== 'unknown')
+            ? `${p.raw_action} (${p.raw_confidence.toFixed(2)})`
+            : '-';
+          [p.id, p.action, p.confidence.toFixed(2), rawCell].forEach(value => {
+            const td = document.createElement('td');
+            td.textContent = value;
+            tr.appendChild(td);
+          });
           tbody.appendChild(tr);
         });
       } catch (e) {
