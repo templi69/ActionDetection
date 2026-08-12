@@ -31,6 +31,7 @@ from visualization import draw_tracked_people
 from action_buffer import ActionBuffer
 from action_recognizer import VideoMAEActionRecognizer
 from action_smoother import ActionSmoother
+from safety import infer_fallback_action
 
 from robot_interface import (
     SimulatedRobot,
@@ -130,6 +131,8 @@ def draw_action_label(frame, person):
     if action == "unknown" and raw_action and raw_action != "unknown":
         raw_confidence = float(person.get("raw_confidence", 0.0) or 0.0)
         text = f"ID {person_id}: unknown ({raw_action} {raw_confidence:.2f})"
+    elif person.get("action_source") == "pose":
+        text = f"ID {person_id}: {action} {confidence:.2f} (pose)"
     else:
         text = f"ID {person_id}: {action} {confidence:.2f}"
 
@@ -196,6 +199,12 @@ def run(args):
 
     SEQUENCE_LENGTH = 16
     INFERENCE_INTERVAL = 8
+
+    # Confidence assigned to actions filled in by the pose-geometry
+    # fallback (see PROCESS EACH PERSON below) when VideoMAE has
+    # nothing usable. Deliberately below action_fall_confidence so it
+    # can never itself satisfy a VideoMAE-fall emergency check.
+    POSE_FALLBACK_CONFIDENCE = 0.5
 
     action_buffer = ActionBuffer(sequence_length=SEQUENCE_LENGTH)
 
@@ -328,6 +337,32 @@ def run(args):
                 person["raw_confidence"] = last_actions[person_id]["raw_confidence"]
 
                 # ==================================================
+                # 3b. POSE-BASED ACTION FALLBACK
+                #
+                # VideoMAE's Kinetics-400 checkpoint frequently lands
+                # on labels outside ACTION_MAP (e.g. "stretching arm"),
+                # leaving the action stuck on "unknown" between
+                # inference cycles -- in practice this meant follow /
+                # approach almost never fired. Cheap per-frame pose
+                # geometry fills that gap for walking/waving every
+                # frame (no model call needed). It never overrides a
+                # real VideoMAE action, and deliberately excludes
+                # "falling" -- that stays the job of the dedicated,
+                # independent check_fall() safety path so there's
+                # exactly one source of truth for the emergency-stop
+                # trigger.
+                # ==================================================
+
+                person["action_source"] = "videomae"
+
+                if person["action"] == "unknown":
+                    pose_action = infer_fallback_action(person["landmarks"])
+                    if pose_action in ("walking", "waving"):
+                        person["action"] = pose_action
+                        person["action_confidence"] = POSE_FALLBACK_CONFIDENCE
+                        person["action_source"] = "pose"
+
+                # ==================================================
                 # 4. VIDEOMAE INFERENCE
                 # ==================================================
 
@@ -361,6 +396,7 @@ def run(args):
                         person["action_confidence"] = stable_confidence
                         person["raw_action"] = raw_model_action
                         person["raw_confidence"] = raw_confidence
+                        person["action_source"] = "videomae"
 
                         print(
                             f"[Person {person_id}] "
