@@ -35,6 +35,7 @@ from safety import (
     check_fall,
     check_proximity_risk,
     check_tracking_lost,
+    is_horizontal,
 )
 
 
@@ -73,6 +74,28 @@ class DecisionConfig:
     # ------------------------------------------------------
 
     action_fall_confidence: float = 0.60
+
+    # ------------------------------------------------------
+    # Sleeping vs. fallen.
+    #
+    # Kinetics-400 has no "sleeping" class, and the only real signal
+    # for "lying down" is the same torso-horizontal geometry used to
+    # trigger the pose fall emergency. So instead of changing when
+    # emergency_stop fires, DecisionEngine tracks how long a person
+    # has stayed horizontal AND roughly still; past this many frames
+    # the fall decision is additionally flagged "likely_sleeping" for
+    # an operator to see. This NEVER auto-clears the emergency latch
+    # -- a human still has to call robot.clear_emergency().
+    #
+    # ~8s at 30fps / one DecisionEngine.step() call per frame.
+    # ------------------------------------------------------
+
+    sleep_still_frames: int = 240
+
+    # Max per-frame bbox-centroid movement (px) to still count as
+    # "still". Bigger movement resets the counter -- thrashing/
+    # distress shouldn't read as calmly sleeping.
+    sleep_motion_threshold: float = 15.0
 
 
 # ==========================================================
@@ -129,6 +152,59 @@ class DecisionEngine:
 
         self._primary_target_id = None
 
+        # --------------------------------------------------
+        # Person ID -> {"frames": int, "last_centroid": (x, y)}
+        # Consecutive horizontal-and-still frames, for the
+        # sleeping-vs-fallen distinction. See DecisionConfig.
+        # --------------------------------------------------
+
+        self._horizontal_tracking = {}
+
+
+    # ======================================================
+    # SLEEP TRACKING
+    #
+    # Updates (and returns) how many consecutive frames this person
+    # has been horizontal AND roughly still. Called for every tracked
+    # person every frame, independent of whether check_fall currently
+    # flags them -- so the count is accurate the instant it's needed.
+    # ======================================================
+
+    def _update_sleep_tracking(self, person):
+
+        pid = person["id"]
+
+        horizontal = is_horizontal(person.get("landmarks"))
+
+        if not horizontal:
+            self._horizontal_tracking.pop(pid, None)
+            return 0
+
+        x1, y1, x2, y2 = person["bbox"]
+        centroid = ((x1 + x2) / 2.0, (y1 + y2) / 2.0)
+
+        entry = self._horizontal_tracking.get(pid)
+
+        if entry is None:
+            self._horizontal_tracking[pid] = {"frames": 1, "last_centroid": centroid}
+            return 1
+
+        last_centroid = entry["last_centroid"]
+
+        moved = (
+            (centroid[0] - last_centroid[0]) ** 2
+            + (centroid[1] - last_centroid[1]) ** 2
+        ) ** 0.5
+
+        if moved > self.cfg.sleep_motion_threshold:
+            entry["frames"] = 1
+        else:
+            entry["frames"] += 1
+
+        entry["last_centroid"] = centroid
+
+        return entry["frames"]
+
 
     # ======================================================
     # MAIN DECISION FUNCTION
@@ -149,8 +225,14 @@ class DecisionEngine:
         # 1. POSE-BASED FALL
         #
         # This is safety-critical and does NOT depend
-        # on VideoMAE.
+        # on VideoMAE. Emergency behavior below is unchanged
+        # regardless of how long someone has been down --
+        # "likely_sleeping" is informational only, for an
+        # operator deciding whether to clear the emergency.
         # ==================================================
+
+        for person in tracked_people:
+            self._update_sleep_tracking(person)
 
         fallen = check_fall(
             tracked_people
@@ -158,15 +240,28 @@ class DecisionEngine:
 
         if fallen:
 
+            still_frames = (
+                self._horizontal_tracking
+                .get(fallen["id"], {})
+                .get("frames", 0)
+            )
+
+            likely_sleeping = (
+                still_frames >= self.cfg.sleep_still_frames
+            )
+
+            reason = (
+                f"person {fallen['id']} "
+                f"appears to have fallen "
+                f"(torso angle "
+                f"{fallen['torso_angle_deg']:.1f}°)"
+            )
+
+            if likely_sleeping:
+                reason += " -- lying still, possibly asleep"
+
             self.robot.emergency_stop(
-
-                reason=(
-                    f"person {fallen['id']} "
-                    f"appears to have fallen "
-                    f"(torso angle "
-                    f"{fallen['torso_angle_deg']:.1f}°)"
-                )
-
+                reason=reason
             )
 
             return {
@@ -178,7 +273,13 @@ class DecisionEngine:
                     "pose_fall",
 
                 "detail":
-                    fallen
+                    fallen,
+
+                "likely_sleeping":
+                    likely_sleeping,
+
+                "horizontal_still_frames":
+                    still_frames
 
             }
 

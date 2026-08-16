@@ -95,6 +95,60 @@ class VideoMAEActionRecognizer:
 
         "sitting down":
             "idle",
+
+        # ------------------------------------------------------
+        # Dancing
+        #
+        # Verified against this checkpoint's actual id2label via
+        # list_kinerics_labels -- Kinetics-400 has no single "dancing"
+        # class, only specific dance styles. Excludes "capoeira" (a
+        # martial art, not a dance) and "hula hooping" (prop-based).
+        # ------------------------------------------------------
+
+        "belly dancing":
+            "dancing",
+
+        "breakdancing":
+            "dancing",
+
+        "country line dancing":
+            "dancing",
+
+        "dancing ballet":
+            "dancing",
+
+        "dancing charleston":
+            "dancing",
+
+        "dancing gangnam style":
+            "dancing",
+
+        "dancing macarena":
+            "dancing",
+
+        "jumpstyle dancing":
+            "dancing",
+
+        "krumping":
+            "dancing",
+
+        "robot dancing":
+            "dancing",
+
+        "salsa dancing":
+            "dancing",
+
+        "swing dancing":
+            "dancing",
+
+        "tango dancing":
+            "dancing",
+
+        "tap dancing":
+            "dancing",
+
+        "zumba":
+            "dancing",
     }
 
     def __init__(

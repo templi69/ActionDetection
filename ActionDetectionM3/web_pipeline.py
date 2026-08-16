@@ -116,6 +116,12 @@ STATE_COLORS = {
 def overlay_robot_status(frame, robot, decision):
 
     text = f"ROBOT: {robot.status.state.value} | {decision.get('decision', '')}"
+
+    # Emergency behavior is unchanged either way -- this is just a
+    # visual nudge for the operator deciding whether to clear it.
+    if decision.get("likely_sleeping"):
+        text += " (possibly asleep -- operator review)"
+
     color = STATE_COLORS.get(robot.status.state, (255, 255, 255))
 
     cv2.rectangle(frame, (0, 0), (frame.shape[1], 35), (0, 0, 0), -1)
@@ -426,6 +432,7 @@ def capture_loop(args):
                     "frame_idx": frame_idx,
                     "persons": persons_status,
                     "in_emergency": bool(robot.in_emergency),
+                    "likely_sleeping": bool(decision.get("likely_sleeping", False)),
                 }
 
     finally:
@@ -546,7 +553,9 @@ PAGE_TEMPLATE = """
         document.getElementById('decision').textContent = data.decision || '-';
         document.getElementById('reason').textContent = data.reason || '-';
         document.getElementById('frame-meta').textContent =
-          'frame ' + data.frame_idx + (data.in_emergency ? ' | EMERGENCY LATCHED' : '');
+          'frame ' + data.frame_idx
+          + (data.in_emergency ? ' | EMERGENCY LATCHED' : '')
+          + (data.likely_sleeping ? ' | possibly asleep -- operator review' : '');
 
         const tbody = document.getElementById('persons');
         tbody.innerHTML = '';

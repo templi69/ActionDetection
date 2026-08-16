@@ -95,6 +95,11 @@ def overlay_robot_status(frame, robot, decision):
         f" | {decision.get('decision', '')}"
     )
 
+    # Emergency behavior is unchanged either way -- this is just a
+    # visual nudge for the operator deciding whether to clear it.
+    if decision.get("likely_sleeping"):
+        text += " (possibly asleep -- operator review)"
+
     color = STATE_COLORS.get(robot.status.state, (255, 255, 255))
 
     cv2.rectangle(frame, (0, 0), (frame.shape[1], 35), (0, 0, 0), -1)

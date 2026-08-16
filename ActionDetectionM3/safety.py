@@ -230,6 +230,22 @@ def check_fall(tracked_people):
 
 
 # ==========================================================
+# HORIZONTAL-POSTURE CHECK
+#
+# Shares check_fall's geometry, but as a plain boolean -- used by
+# DecisionEngine to track how long someone has stayed down, to tell
+# "just fell" apart from "has been lying still for a while" without
+# changing the fall trigger itself (see DecisionConfig.sleep_still_frames).
+# ==========================================================
+
+def is_horizontal(landmarks, angle_threshold=FALL_TORSO_ANGLE_DEG):
+
+    angle = _torso_angle_from_vertical(landmarks)
+
+    return angle is not None and angle > angle_threshold
+
+
+# ==========================================================
 # ACTION-BASED FALL CHECK
 # ==========================================================
 
