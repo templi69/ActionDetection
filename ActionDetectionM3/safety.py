@@ -230,6 +230,22 @@ def check_fall(tracked_people):
 
 
 # ==========================================================
+# HORIZONTAL-POSTURE CHECK
+#
+# Shares check_fall's geometry, but as a plain boolean -- used by
+# DecisionEngine to track how long someone has stayed down, to tell
+# "just fell" apart from "has been lying still for a while" without
+# changing the fall trigger itself (see DecisionConfig.sleep_still_frames).
+# ==========================================================
+
+def is_horizontal(landmarks, angle_threshold=FALL_TORSO_ANGLE_DEG):
+
+    angle = _torso_angle_from_vertical(landmarks)
+
+    return angle is not None and angle > angle_threshold
+
+
+# ==========================================================
 # ACTION-BASED FALL CHECK
 # ==========================================================
 
@@ -449,6 +465,91 @@ def check_tracking_lost(
 
 
 # ==========================================================
+# WAVING GEOMETRY
+#
+# A raised arm only counts as "waving" if the wrist rises well
+# above the shoulder *and* stays close to the body horizontally.
+# Arms extended out to the sides (T-pose, stretching) rise little
+# relative to how far they reach sideways, so they're excluded.
+# Thresholds are scaled by shoulder width so this works regardless
+# of how close the person is to the camera.
+# ==========================================================
+
+WAVE_MIN_RAISE_RATIO = 0.5
+WAVE_MAX_HORIZONTAL_RATIO = 1.0
+
+
+def _shoulder_width(landmarks):
+
+    ls = _get_landmark(landmarks, "LEFT_SHOULDER")
+    rs = _get_landmark(landmarks, "RIGHT_SHOULDER")
+
+    if not ls or not rs:
+        return None
+
+    try:
+        width = abs(float(ls["x"]) - float(rs["x"]))
+    except (KeyError, TypeError, ValueError):
+        return None
+
+    return width or None
+
+
+def _is_arm_raised_for_wave(wrist, shoulder, shoulder_width):
+
+    if not wrist or not shoulder or not shoulder_width:
+        return False
+
+    try:
+        # y grows downward, so a positive value means the wrist is
+        # above the shoulder.
+        vertical_raise = float(shoulder["y"]) - float(wrist["y"])
+        horizontal_reach = abs(float(wrist["x"]) - float(shoulder["x"]))
+    except (KeyError, TypeError, ValueError):
+        return False
+
+    if vertical_raise < WAVE_MIN_RAISE_RATIO * shoulder_width:
+        return False
+
+    if horizontal_reach > WAVE_MAX_HORIZONTAL_RATIO * vertical_raise:
+        return False
+
+    return True
+
+
+# ==========================================================
+# WALKING GEOMETRY
+#
+# A walking stride has one foot forward and one foot back, which
+# shows up as a depth (z) difference between the ankles -- standing
+# still keeps both feet at roughly the same depth. This is a rough
+# single-frame proxy (no actual motion is observed), scaled by
+# shoulder width the same way the waving check is.
+# ==========================================================
+
+WALK_MIN_STRIDE_Z_RATIO = 0.5
+
+
+def _is_stride_stance(landmarks, shoulder_width):
+
+    if not shoulder_width:
+        return False
+
+    l_ankle = _get_landmark(landmarks, "LEFT_ANKLE")
+    r_ankle = _get_landmark(landmarks, "RIGHT_ANKLE")
+
+    if not l_ankle or not r_ankle:
+        return False
+
+    try:
+        z_diff = abs(float(l_ankle["z"]) - float(r_ankle["z"]))
+    except (KeyError, TypeError, ValueError):
+        return False
+
+    return z_diff > WALK_MIN_STRIDE_Z_RATIO * shoulder_width
+
+
+# ==========================================================
 # FALLBACK ACTION
 # ==========================================================
 
@@ -465,6 +566,7 @@ def infer_fallback_action(landmarks):
         falling
         waving
         walking
+        idle
         unknown
     """
 
@@ -516,51 +618,26 @@ def infer_fallback_action(landmarks):
         "RIGHT_SHOULDER"
     )
 
+    shoulder_width = _shoulder_width(landmarks)
 
-    if l_wrist and l_shoulder:
+    if (
+        _is_arm_raised_for_wave(l_wrist, l_shoulder, shoulder_width)
+        or _is_arm_raised_for_wave(r_wrist, r_shoulder, shoulder_width)
+    ):
 
-        try:
-
-            if (
-                float(l_wrist["y"])
-                <
-                float(l_shoulder["y"]) - 20
-            ):
-
-                return "waving"
-
-        except (
-            KeyError,
-            TypeError,
-            ValueError
-        ):
-
-            pass
-
-
-    if r_wrist and r_shoulder:
-
-        try:
-
-            if (
-                float(r_wrist["y"])
-                <
-                float(r_shoulder["y"]) - 20
-            ):
-
-                return "waving"
-
-        except (
-            KeyError,
-            TypeError,
-            ValueError
-        ):
-
-            pass
+        return "waving"
 
 
     # ------------------------------------------------------
-    # DEFAULT
+    # WALKING
     # ------------------------------------------------------
 
-    return "walking"
+    if _is_stride_stance(landmarks, shoulder_width):
+        return "walking"
+
+
+    # ------------------------------------------------------
+    # DEFAULT -- standing still, arms down, no stride: idle.
+    # ------------------------------------------------------
+
+    return "idle"
