@@ -518,6 +518,38 @@ def _is_arm_raised_for_wave(wrist, shoulder, shoulder_width):
 
 
 # ==========================================================
+# WALKING GEOMETRY
+#
+# A walking stride has one foot forward and one foot back, which
+# shows up as a depth (z) difference between the ankles -- standing
+# still keeps both feet at roughly the same depth. This is a rough
+# single-frame proxy (no actual motion is observed), scaled by
+# shoulder width the same way the waving check is.
+# ==========================================================
+
+WALK_MIN_STRIDE_Z_RATIO = 0.5
+
+
+def _is_stride_stance(landmarks, shoulder_width):
+
+    if not shoulder_width:
+        return False
+
+    l_ankle = _get_landmark(landmarks, "LEFT_ANKLE")
+    r_ankle = _get_landmark(landmarks, "RIGHT_ANKLE")
+
+    if not l_ankle or not r_ankle:
+        return False
+
+    try:
+        z_diff = abs(float(l_ankle["z"]) - float(r_ankle["z"]))
+    except (KeyError, TypeError, ValueError):
+        return False
+
+    return z_diff > WALK_MIN_STRIDE_Z_RATIO * shoulder_width
+
+
+# ==========================================================
 # FALLBACK ACTION
 # ==========================================================
 
@@ -534,6 +566,7 @@ def infer_fallback_action(landmarks):
         falling
         waving
         walking
+        idle
         unknown
     """
 
@@ -596,7 +629,15 @@ def infer_fallback_action(landmarks):
 
 
     # ------------------------------------------------------
-    # DEFAULT
+    # WALKING
     # ------------------------------------------------------
 
-    return "walking"
+    if _is_stride_stance(landmarks, shoulder_width):
+        return "walking"
+
+
+    # ------------------------------------------------------
+    # DEFAULT -- standing still, arms down, no stride: idle.
+    # ------------------------------------------------------
+
+    return "idle"
