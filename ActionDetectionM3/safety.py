@@ -518,6 +518,60 @@ def _is_arm_raised_for_wave(wrist, shoulder, shoulder_width):
 
 
 # ==========================================================
+# HAND-ON-HEAD GEOMETRY (fixing hair, touching face, etc.)
+#
+# A hand resting on/near the head satisfies the waving geometry
+# too (small horizontal reach, large vertical raise relative to the
+# shoulder), so this must be checked *before* waving and take
+# priority when it matches. "Near the head" is measured as distance
+# from the wrist to the nose/ears, scaled by shoulder width so it
+# holds up regardless of distance from camera.
+# ==========================================================
+
+HAIR_TOUCH_MAX_RATIO = 0.7
+
+
+def _head_reference_points(landmarks):
+
+    points = []
+
+    for name in ("NOSE", "LEFT_EAR", "RIGHT_EAR"):
+
+        lm = _get_landmark(landmarks, name)
+
+        if not lm:
+            continue
+
+        try:
+            points.append((float(lm["x"]), float(lm["y"])))
+        except (KeyError, TypeError, ValueError):
+            continue
+
+    return points
+
+
+def _is_hand_on_head(wrist, landmarks, shoulder_width):
+
+    if not wrist or not shoulder_width:
+        return False
+
+    try:
+        wx = float(wrist["x"])
+        wy = float(wrist["y"])
+    except (KeyError, TypeError, ValueError):
+        return False
+
+    for hx, hy in _head_reference_points(landmarks):
+
+        distance = math.hypot(wx - hx, wy - hy)
+
+        if distance < HAIR_TOUCH_MAX_RATIO * shoulder_width:
+            return True
+
+    return False
+
+
+# ==========================================================
 # WALKING GEOMETRY
 #
 # A walking stride has one foot forward and one foot back, which
@@ -565,6 +619,7 @@ def infer_fallback_action(landmarks):
 
         falling
         waving
+        fixing_hair
         walking
         idle
         unknown
@@ -619,6 +674,18 @@ def infer_fallback_action(landmarks):
     )
 
     shoulder_width = _shoulder_width(landmarks)
+
+    # ------------------------------------------------------
+    # HAND ON HEAD (fixing hair) -- checked first: it would
+    # otherwise also satisfy the waving geometry below.
+    # ------------------------------------------------------
+
+    if (
+        _is_hand_on_head(l_wrist, landmarks, shoulder_width)
+        or _is_hand_on_head(r_wrist, landmarks, shoulder_width)
+    ):
+
+        return "fixing_hair"
 
     if (
         _is_arm_raised_for_wave(l_wrist, l_shoulder, shoulder_width)

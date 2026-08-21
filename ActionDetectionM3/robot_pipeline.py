@@ -362,7 +362,7 @@ def run(args):
 
                 if person["action"] == "unknown":
                     pose_action = infer_fallback_action(person["landmarks"])
-                    if pose_action in ("walking", "waving"):
+                    if pose_action in ("walking", "waving", "fixing_hair"):
                         person["action"] = pose_action
                         person["action_confidence"] = POSE_FALLBACK_CONFIDENCE
                         person["action_source"] = "pose"
