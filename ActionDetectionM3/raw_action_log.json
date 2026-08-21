@@ -1,26 +1,50 @@
 [
   {
+    "raw_label": "contact juggling",
+    "count": 57,
+    "avg_confidence": 0.357,
+    "mapped_to": "unknown"
+  },
+  {
     "raw_label": "stretching arm",
-    "count": 21,
-    "avg_confidence": 0.139,
+    "count": 33,
+    "avg_confidence": 0.475,
+    "mapped_to": "unknown"
+  },
+  {
+    "raw_label": "tossing coin",
+    "count": 6,
+    "avg_confidence": 0.186,
+    "mapped_to": "unknown"
+  },
+  {
+    "raw_label": "tai chi",
+    "count": 3,
+    "avg_confidence": 0.156,
+    "mapped_to": "unknown"
+  },
+  {
+    "raw_label": "tying tie",
+    "count": 2,
+    "avg_confidence": 0.105,
     "mapped_to": "unknown"
   },
   {
     "raw_label": "headbanging",
-    "count": 4,
-    "avg_confidence": 0.151,
+    "count": 1,
+    "avg_confidence": 0.077,
     "mapped_to": "unknown"
   },
   {
-    "raw_label": "whistling",
+    "raw_label": "finger snapping",
     "count": 1,
-    "avg_confidence": 0.058,
+    "avg_confidence": 0.186,
     "mapped_to": "unknown"
   },
   {
-    "raw_label": "trimming or shaving beard",
+    "raw_label": "opening bottle",
     "count": 1,
-    "avg_confidence": 0.062,
+    "avg_confidence": 0.092,
     "mapped_to": "unknown"
   }
 ]

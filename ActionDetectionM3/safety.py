@@ -465,6 +465,59 @@ def check_tracking_lost(
 
 
 # ==========================================================
+# WAVING GEOMETRY
+#
+# A raised arm only counts as "waving" if the wrist rises well
+# above the shoulder *and* stays close to the body horizontally.
+# Arms extended out to the sides (T-pose, stretching) rise little
+# relative to how far they reach sideways, so they're excluded.
+# Thresholds are scaled by shoulder width so this works regardless
+# of how close the person is to the camera.
+# ==========================================================
+
+WAVE_MIN_RAISE_RATIO = 0.5
+WAVE_MAX_HORIZONTAL_RATIO = 1.0
+
+
+def _shoulder_width(landmarks):
+
+    ls = _get_landmark(landmarks, "LEFT_SHOULDER")
+    rs = _get_landmark(landmarks, "RIGHT_SHOULDER")
+
+    if not ls or not rs:
+        return None
+
+    try:
+        width = abs(float(ls["x"]) - float(rs["x"]))
+    except (KeyError, TypeError, ValueError):
+        return None
+
+    return width or None
+
+
+def _is_arm_raised_for_wave(wrist, shoulder, shoulder_width):
+
+    if not wrist or not shoulder or not shoulder_width:
+        return False
+
+    try:
+        # y grows downward, so a positive value means the wrist is
+        # above the shoulder.
+        vertical_raise = float(shoulder["y"]) - float(wrist["y"])
+        horizontal_reach = abs(float(wrist["x"]) - float(shoulder["x"]))
+    except (KeyError, TypeError, ValueError):
+        return False
+
+    if vertical_raise < WAVE_MIN_RAISE_RATIO * shoulder_width:
+        return False
+
+    if horizontal_reach > WAVE_MAX_HORIZONTAL_RATIO * vertical_raise:
+        return False
+
+    return True
+
+
+# ==========================================================
 # FALLBACK ACTION
 # ==========================================================
 
@@ -532,47 +585,14 @@ def infer_fallback_action(landmarks):
         "RIGHT_SHOULDER"
     )
 
+    shoulder_width = _shoulder_width(landmarks)
 
-    if l_wrist and l_shoulder:
+    if (
+        _is_arm_raised_for_wave(l_wrist, l_shoulder, shoulder_width)
+        or _is_arm_raised_for_wave(r_wrist, r_shoulder, shoulder_width)
+    ):
 
-        try:
-
-            if (
-                float(l_wrist["y"])
-                <
-                float(l_shoulder["y"]) - 20
-            ):
-
-                return "waving"
-
-        except (
-            KeyError,
-            TypeError,
-            ValueError
-        ):
-
-            pass
-
-
-    if r_wrist and r_shoulder:
-
-        try:
-
-            if (
-                float(r_wrist["y"])
-                <
-                float(r_shoulder["y"]) - 20
-            ):
-
-                return "waving"
-
-        except (
-            KeyError,
-            TypeError,
-            ValueError
-        ):
-
-            pass
+        return "waving"
 
 
     # ------------------------------------------------------
