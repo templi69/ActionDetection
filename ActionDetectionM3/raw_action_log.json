@@ -1,20 +1,20 @@
 [
   {
     "raw_label": "contact juggling",
-    "count": 57,
-    "avg_confidence": 0.357,
-    "mapped_to": "unknown"
-  },
-  {
-    "raw_label": "stretching arm",
-    "count": 48,
-    "avg_confidence": 0.474,
+    "count": 13,
+    "avg_confidence": 0.286,
     "mapped_to": "unknown"
   },
   {
     "raw_label": "tossing coin",
     "count": 6,
     "avg_confidence": 0.186,
+    "mapped_to": "unknown"
+  },
+  {
+    "raw_label": "stretching arm",
+    "count": 6,
+    "avg_confidence": 0.216,
     "mapped_to": "unknown"
   },
   {
