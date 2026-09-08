@@ -1,50 +1,86 @@
 [
   {
-    "raw_label": "contact juggling",
-    "count": 68,
-    "avg_confidence": 0.336,
+    "raw_label": "answering questions",
+    "count": 140,
+    "avg_confidence": 0.17,
+    "mapped_to": "unknown"
+  },
+  {
+    "raw_label": "sign language interpreting",
+    "count": 56,
+    "avg_confidence": 0.209,
+    "mapped_to": "unknown"
+  },
+  {
+    "raw_label": "whistling",
+    "count": 15,
+    "avg_confidence": 0.203,
+    "mapped_to": "unknown"
+  },
+  {
+    "raw_label": "beatboxing",
+    "count": 14,
+    "avg_confidence": 0.213,
+    "mapped_to": "unknown"
+  },
+  {
+    "raw_label": "fixing hair",
+    "count": 8,
+    "avg_confidence": 0.439,
+    "mapped_to": "unknown"
+  },
+  {
+    "raw_label": "playing chess",
+    "count": 7,
+    "avg_confidence": 0.106,
+    "mapped_to": "unknown"
+  },
+  {
+    "raw_label": "yawning",
+    "count": 2,
+    "avg_confidence": 0.118,
+    "mapped_to": "unknown"
+  },
+  {
+    "raw_label": "trimming or shaving beard",
+    "count": 2,
+    "avg_confidence": 0.151,
+    "mapped_to": "unknown"
+  },
+  {
+    "raw_label": "playing recorder",
+    "count": 1,
+    "avg_confidence": 0.103,
+    "mapped_to": "unknown"
+  },
+  {
+    "raw_label": "news anchoring",
+    "count": 1,
+    "avg_confidence": 0.138,
+    "mapped_to": "unknown"
+  },
+  {
+    "raw_label": "front raises",
+    "count": 1,
+    "avg_confidence": 0.056,
     "mapped_to": "unknown"
   },
   {
     "raw_label": "stretching arm",
-    "count": 49,
-    "avg_confidence": 0.47,
-    "mapped_to": "unknown"
-  },
-  {
-    "raw_label": "tossing coin",
-    "count": 6,
-    "avg_confidence": 0.186,
-    "mapped_to": "unknown"
-  },
-  {
-    "raw_label": "tai chi",
-    "count": 3,
-    "avg_confidence": 0.156,
-    "mapped_to": "unknown"
-  },
-  {
-    "raw_label": "tying tie",
-    "count": 2,
-    "avg_confidence": 0.105,
-    "mapped_to": "unknown"
-  },
-  {
-    "raw_label": "headbanging",
     "count": 1,
-    "avg_confidence": 0.077,
+    "avg_confidence": 0.041,
     "mapped_to": "unknown"
   },
   {
-    "raw_label": "finger snapping",
+    "raw_label": "cracking neck",
     "count": 1,
-    "avg_confidence": 0.186,
+    "avg_confidence": 0.117,
     "mapped_to": "unknown"
   },
   {
-    "raw_label": "opening bottle",
+    "raw_label": "reading newspaper",
     "count": 1,
-    "avg_confidence": 0.092,
+    "avg_confidence": 0.044,
     "mapped_to": "unknown"
   }
 ]
